@@ -1,0 +1,58 @@
+===== run_all 2026-10-04 13:41
+8x8/10 safe first=  0 safest    10,000,000 games  win 78.497%  no-guess 36.075%  guesses/game 1.509  capped 0  16s
+  Tu et al. 8x8/10: win 78.44% (mine 78.497%), no guess 36.060% (mine 36.075%)
+16x16/40 safe first=  0 safest    10,000,000 games  win 74.298%  no-guess 34.500%  guesses/game 1.705  capped 0  36s
+  Tu et al. 16x16/40: win 74.30% (mine 74.298%), no guess 34.490% (mine 34.500%)
+30x16/99 safe first=  0 safest    10,000,000 games  win 35.562%  no-guess 5.096%  guesses/game 3.916  capped 0  200s
+  Tu et al. 30x16/99: win 35.56% (mine 35.562%), no guess 5.097% (mine 5.096%)
+heat beginner/safe: best win at (0,0) 91.52%, best no-guess at (0,0) 54.46%, centre 86.27%
+heat beginner/zero: best win at (2,2) 96.96%, best no-guess at (2,3) 91.95%, centre 96.02%
+heat intermediate/safe: best win at (0,0) 77.66%, best no-guess at (0,0) 34.43%, centre 70.56%
+heat intermediate/zero: best win at (3,2) 88.36%, best no-guess at (3,3) 72.34%, centre 86.69%
+heat expert/safe: best win at (0,0) 38.46%, best no-guess at (0,0) 5.14%, centre 34.89%
+heat expert/zero: best win at (3,3) 50.94%, best no-guess at (3,3) 16.17%, centre 49.37%
+9x9/10 safe first=  0 smart     25,000,000 games  win 91.534%  no-guess 54.507%  guesses/game 0.700  capped 0  36s
+9x9/10 safe first=  0 safest    25,000,000 games  win 89.536%  no-guess 54.507%  guesses/game 0.923  capped 0  42s
+9x9/10 safe first=  0 frontier  25,000,000 games  win 76.263%  no-guess 54.507%  guesses/game 0.661  capped 0  35s
+9x9/10 safe first=  0 random    25,000,000 games  win 86.996%  no-guess 54.507%  guesses/game 0.899  capped 0  41s
+9x9/10 zero first= 20 smart     25,000,000 games  win 96.987%  no-guess 91.853%  guesses/game 0.101  capped 0  20s
+9x9/10 zero first= 20 safest    25,000,000 games  win 97.021%  no-guess 91.853%  guesses/game 0.104  capped 0  32s
+9x9/10 zero first= 20 frontier  25,000,000 games  win 96.128%  no-guess 91.853%  guesses/game 0.093  capped 0  18s
+9x9/10 zero first= 20 random    25,000,000 games  win 96.541%  no-guess 91.853%  guesses/game 0.101  capped 0  18s
+16x16/40 safe first=  0 smart     25,000,000 games  win 77.564%  no-guess 34.502%  guesses/game 1.320  capped 0  89s
+16x16/40 safe first=  0 safest    25,000,000 games  win 74.287%  no-guess 34.502%  guesses/game 1.704  capped 0  107s
+16x16/40 safe first=  0 frontier  25,000,000 games  win 59.078%  no-guess 34.502%  guesses/game 1.081  capped 0  67s
+16x16/40 safe first=  0 random    25,000,000 games  win 68.812%  no-guess 34.502%  guesses/game 1.627  capped 0  99s
+16x16/40 zero first= 50 smart     25,000,000 games  win 88.249%  no-guess 72.170%  guesses/game 0.438  capped 0  62s
+16x16/40 zero first= 50 safest    25,000,000 games  win 88.262%  no-guess 72.170%  guesses/game 0.455  capped 0  64s
+16x16/40 zero first= 50 frontier  25,000,000 games  win 84.852%  no-guess 72.170%  guesses/game 0.360  capped 0  60s
+16x16/40 zero first= 50 random    25,000,000 games  win 85.873%  no-guess 72.170%  guesses/game 0.436  capped 0  64s
+30x16/99 safe first=  0 smart     25,000,000 games  win 38.271%  no-guess 5.090%  guesses/game 3.420  capped 0  498s
+30x16/99 safe first=  0 safest    25,000,000 games  win 35.577%  no-guess 5.090%  guesses/game 3.916  capped 0  597s
+30x16/99 safe first=  0 frontier  25,000,000 games  win 19.802%  no-guess 5.090%  guesses/game 2.041  capped 0  319s
+30x16/99 safe first=  0 random    25,000,000 games  win 22.826%  no-guess 5.090%  guesses/game 3.221  capped 0  541s
+30x16/99 zero first= 93 smart     25,000,000 games  win 50.906%  no-guess 16.244%  guesses/game 2.660  capped 0  354s
+30x16/99 zero first= 93 safest    25,000,000 games  win 50.624%  no-guess 16.244%  guesses/game 2.771  capped 0  368s
+30x16/99 zero first= 93 frontier  25,000,000 games  win 36.378%  no-guess 16.244%  guesses/game 1.576  capped 0  235s
+30x16/99 zero first= 93 random    25,000,000 games  win 37.387%  no-guess 16.244%  guesses/game 2.182  capped 3  345s
+9x9/10 any  first=  0 smart      4,000,000 games  win 80.216%  no-guess 47.745%  guesses/game 0.701  capped 0  4s
+16x16/40 any  first=  0 smart      4,000,000 games  win 65.450%  no-guess 29.085%  guesses/game 1.320  capped 0  11s
+30x16/99 any  first=  0 smart      4,000,000 games  win 30.412%  no-guess 4.056%  guesses/game 3.419  capped 0  63s
+sweep 9x9/safe: 4:84.5, 5:80.2, 6:75.7, 7:71.0, 8:65.9, 9:60.4, 10:54.5, 11:48.2, 12:41.5, 13:34.6, 14:27.9, 15:21.5, 16:15.8, 17:11.0, 18:7.2, 19:4.5, 20:2.7, 21:1.5, 22:0.8, 23:0.4, 24:0.2
+sweep 9x9/zero: 4:99.9, 5:99.6, 6:99.1, 7:98.3, 8:96.9, 9:94.9, 10:91.8, 11:87.6, 12:81.9, 13:74.7, 14:66.1, 15:56.6, 16:46.6, 17:36.8, 18:27.8, 19:20.1, 20:14.0, 21:9.3, 22:5.9, 23:3.6, 24:2.1
+sweep 16x16/safe: 10:87.8, 13:83.9, 16:79.8, 19:75.3, 22:70.5, 25:65.4, 28:60.0, 31:54.1, 34:47.9, 37:41.3, 40:34.5, 43:27.5, 46:20.7, 49:14.5, 52:9.2, 55:5.2, 58:2.6, 61:1.1, 64:0.4, 67:0.1, 70:0.0, 73:0.0, 76:0.0
+sweep 16x16/zero: 10:99.9, 13:99.6, 16:99.2, 19:98.5, 22:97.4, 25:95.7, 28:93.4, 31:90.1, 34:85.7, 37:79.8, 40:72.2, 43:62.8, 46:51.8, 49:39.9, 52:28.2, 55:17.9, 58:10.1, 61:4.9, 64:2.1, 67:0.7, 70:0.2, 73:0.1, 76:0.0
+sweep 30x16/safe: 20:86.9, 25:83.3, 30:79.5, 35:75.4, 40:71.1, 45:66.5, 50:61.5, 55:56.2, 60:50.5, 65:44.4, 70:38.1, 75:31.6, 80:25.0, 85:18.7, 90:12.9, 95:8.1, 99:5.1, 100:4.5, 105:2.1, 110:0.8, 115:0.3, 120:0.1, 125:0.0, 130:0.0, 135:0.0, 140:0.0, 145:0.0
+sweep 30x16/zero: 20:99.8, 25:99.5, 30:98.9, 35:98.1, 40:97.0, 45:95.3, 50:93.0, 55:89.9, 60:85.9, 65:80.8, 70:74.3, 75:66.3, 80:56.8, 85:46.1, 90:34.8, 95:23.9, 99:16.2, 100:14.6, 105:7.7, 110:3.4, 115:1.3, 120:0.4, 125:0.1, 130:0.0, 135:0.0, 140:0.0, 145:0.0
+total games: 890,400,000
+===== run_all 2026-10-04 17:22
+  Tu et al. 8x8/10: win 78.44% (mine 78.497%), no guess 36.060% (mine 36.075%)
+  Tu et al. 16x16/40: win 74.30% (mine 74.298%), no guess 34.490% (mine 34.500%)
+  Tu et al. 30x16/99: win 35.56% (mine 35.562%), no guess 5.097% (mine 5.096%)
+9x9/10 safe first=  0 smart      2,000,000 games  win 91.541%  no-guess 54.511%  guesses/game 0.701  capped 0  3s
+9x9/10 zero first= 20 smart      2,000,000 games  win 96.973%  no-guess 91.834%  guesses/game 0.101  capped 0  1s
+16x16/40 safe first=  0 smart      2,000,000 games  win 77.568%  no-guess 34.462%  guesses/game 1.321  capped 0  6s
+16x16/40 zero first= 50 smart      2,000,000 games  win 88.308%  no-guess 72.184%  guesses/game 0.438  capped 0  4s
+30x16/99 safe first=  0 smart      2,000,000 games  win 38.264%  no-guess 5.099%  guesses/game 3.424  capped 0  28s
+30x16/99 zero first= 93 smart      2,000,000 games  win 50.928%  no-guess 16.275%  guesses/game 2.660  capped 0  24s
+total games: 902,400,000
