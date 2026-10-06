@@ -1,0 +1,34 @@
+{
+ "games": 600,
+ "deliberate_draws": 608,
+ "by_alternative": {
+  "only wild cards (a Wild Draw Four)": 233,
+  "only colour changes": 40,
+  "a card of the same colour": 216,
+  "only wild cards": 119
+ },
+ "turns": {
+  "decisions": 8887,
+  "draw_opp_6+": 296,
+  "draw_opp_3-5": 210,
+  "draw_opp_void": 101,
+  "draw_opp_1-2": 102
+ },
+ "after_draw": {
+  "other played": 702,
+  "wild kept": 99,
+  "wild played": 122,
+  "other kept": 137
+ },
+ "wilds": {
+  "wild played, nothing else": 506,
+  "wild played, other cards playable": 57
+ },
+ "games_with_draw": 249,
+ "wins": {
+  "with False": 83,
+  "with True": 166,
+  "without True": 268,
+  "without False": 83
+ }
+}

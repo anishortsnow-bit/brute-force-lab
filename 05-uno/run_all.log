@@ -1,0 +1,79 @@
+run_all 2026-10-04 22:25  K=2048 z=0.0  steps ['checks', 'ladder', 'deal', 'matches', 'players', 'rules', 'ablation', 'k']
+== 1. checks
+tic-tac-toe: best v random 97.9915% (as X 99.7396%, as O 96.2434%), skill 95.98%
+random_random: 49.9997% +- 0.0158%  skill -0.00%  first 51.39% second 48.61%  n=10,000,000  32.0s
+sida_forward_tie0: 33.1834% +- 0.0298%  skill 10.91%  first 35.60% second 32.38%  n=2,500,000  2.4s
+sida_forward_tie1: 32.6140% +- 0.0296%  skill 10.15%  first 35.00% second 31.82%  n=2,500,000  2.3s
+sida_forward_tie2: 31.9935% +- 0.0295%  skill 9.32%  first 34.40% second 31.19%  n=2,500,000  2.3s
+sida_forward_tie3: 31.3191% +- 0.0293%  skill 8.43%  first 33.70% second 30.53%  n=2,500,000  2.3s
+sida_forward_tie4: 30.5862% +- 0.0291%  skill 7.45%  first 32.94% second 29.80%  n=2,500,000  2.3s
+sida_reverse: 24.7246% +- 0.0273%  skill -0.37%  first 26.78% second 24.04%  n=2,500,000  2.4s
+sida_forward_randomtie: 31.8673% +- 0.0295%  skill 9.16%  first 34.14% second 31.11%  n=2,500,000  2.3s
+Sidajaya forward 30.59% to 33.18% by colour tie order (random tie 31.87%; paper 31.7%), reverse 24.725% (paper 24.7%)
+== 2. ladder, two players, official rules
+casual_random: 60.0865% +- 0.0155%  skill 20.17%  first 61.55% second 58.62%  n=10,000,000  9.3s
+expert_random: 62.3563% +- 0.0153%  skill 24.71%  first 63.75% second 60.96%  n=10,000,000  9.7s
+expert_casual: 52.2401% +- 0.0158%  skill 4.48%  first 53.89% second 50.59%  n=10,000,000  9.1s
+search_random: 74.1800% +- 0.2188%  skill 48.36%  first 74.80% second 73.56%  n=40,000  1813.9s
+search_casual: 62.5400% +- 0.4840%  skill 25.08%  first 63.16% second 61.92%  n=10,000  373.0s
+search_expert: 61.6400% +- 0.4863%  skill 23.28%  first 63.02% second 60.26%  n=10,000  401.4s
+cheat_random: 91.7400% +- 0.2753%  skill 83.48%  first 92.34% second 91.14%  n=10,000  509.8s
+cheat_expert: 88.9333% +- 0.4050%  skill 77.87%  first 89.60% second 88.27%  n=6,000  259.5s
+cheat_search: 72.1000% +- 0.7092%  skill 44.20%  first 73.85% second 70.35%  n=4,000  443.3s
+== 3. the deal and the turns (expert v expert)
+expert_expert: 49.9900% +- 0.0112%  skill -0.02%  first 51.55% second 48.43%  n=20,000,000  16.6s
+casual_casual: 50.0152% +- 0.0158%  skill 0.03%  first 51.71% second 48.32%  n=10,000,000  8.8s
+== 4. matches to 500 points
+m_casual_random: match 81.791% +- 0.039%  games/match 15.77  game win 60.052%  13.5s
+m_expert_random: match 93.939% +- 0.024%  games/match 16.57  game win 62.341%  8.3s
+m_expert_casual: match 68.554% +- 0.046%  games/match 16.57  game win 52.270%  7.2s
+m_search_random: match 96.950% +- 0.385%  games/match 12.51  game win 74.733%  1100.1s
+m_search_casual: match 80.850% +- 0.880%  games/match 13.35  game win 63.218%  961.5s
+== 5. number of players (one skilled player, the rest random)
+p3_expert_random: 43.3664% +- 0.0248%  skill 15.05%  first 45.46% second 42.32%  n=4,000,000  3.5s
+p3_casual_random: 41.3526% +- 0.0246%  skill 12.03%  first 43.54% second 40.26%  n=4,000,000  3.4s
+p3_random: 33.3592% +- 0.0236%  skill 0.04%  first 35.29% second 32.39%  n=4,000,000  3.5s
+p4_expert_random: 32.9222% +- 0.0235%  skill 10.56%  first 35.43% second 32.09%  n=4,000,000  3.8s
+p4_casual_random: 31.0710% +- 0.0231%  skill 8.09%  first 33.57% second 30.24%  n=4,000,000  3.7s
+p4_random: 25.0186% +- 0.0217%  skill 0.02%  first 27.17% second 24.30%  n=4,000,000  3.7s
+p5_expert_random: 26.2469% +- 0.0220%  skill 7.81%  first 28.90% second 25.58%  n=4,000,000  4.0s
+p5_casual_random: 24.6440% +- 0.0215%  skill 5.80%  first 27.24% second 23.99%  n=4,000,000  3.9s
+p5_random: 19.9811% +- 0.0200%  skill -0.02%  first 22.22% second 19.42%  n=4,000,000  3.9s
+p6_expert_random: 21.7235% +- 0.0206%  skill 6.07%  first 24.42% second 21.18%  n=4,000,000  4.3s
+p6_casual_random: 20.3080% +- 0.0201%  skill 4.37%  first 22.78% second 19.81%  n=4,000,000  4.4s
+p6_random: 16.6526% +- 0.0186%  skill -0.02%  first 18.91% second 16.20%  n=4,000,000  4.2s
+p8_expert_random: 16.1662% +- 0.0184%  skill 4.19%  first 18.97% second 15.77%  n=4,000,000  4.9s
+p8_casual_random: 15.0170% +- 0.0179%  skill 2.88%  first 17.59% second 14.65%  n=4,000,000  4.7s
+p8_random: 12.5179% +- 0.0165%  skill 0.02%  first 14.65% second 12.21%  n=4,000,000  4.7s
+p10_expert_random: 12.9422% +- 0.0168%  skill 3.27%  first 15.59% second 12.65%  n=4,000,000  5.4s
+p10_casual_random: 11.9942% +- 0.0162%  skill 2.22%  first 14.48% second 11.72%  n=4,000,000  5.4s
+p10_random: 10.0090% +- 0.0150%  skill 0.01%  first 12.22% second 9.76%  n=4,000,000  5.4s
+p3_search_random: 49.4333% +- 0.9128%  skill 24.15%  first 50.20% second 49.05%  n=3,000  114.9s
+p4_search_random: 36.7667% +- 0.8803%  skill 15.69%  first 41.73% second 35.11%  n=3,000  105.6s
+p6_search_random: 23.0667% +- 0.7691%  skill 7.68%  first 24.80% second 22.72%  n=3,000  106.9s
+p10_search_random: 14.3000% +- 0.6391%  skill 4.78%  first 16.00% second 14.11%  n=3,000  119.0s
+== 6. house rules and Crazy Eights
+stack_expert_random: 60.6763% +- 0.0244%  skill 21.35%  first 61.94% second 59.42%  n=4,000,000  3.4s
+stack_search_random: 73.4000% +- 0.4419%  skill 46.80%  first 74.28% second 72.52%  n=10,000  442.7s
+drawuntil_expert_random: 68.2265% +- 0.0233%  skill 36.45%  first 69.14% second 67.31%  n=4,000,000  4.9s
+drawuntil_search_random: 78.3900% +- 0.4116%  skill 56.78%  first 78.64% second 78.14%  n=10,000  810.2s
+stack_drawuntil_expert_random: 66.1952% +- 0.0237%  skill 32.39%  first 67.02% second 65.37%  n=4,000,000  5.0s
+stack_drawuntil_search_random: 77.5600% +- 0.4172%  skill 55.12%  first 78.00% second 77.12%  n=10,000  784.7s
+c8_expert_random: 64.3584% +- 0.0239%  skill 28.72%  first 65.41% second 63.31%  n=4,000,000  3.3s
+c8_casual_random: 60.6761% +- 0.0244%  skill 21.35%  first 61.78% second 59.58%  n=4,000,000  3.3s
+c8_search_random: 74.8200% +- 0.4340%  skill 49.64%  first 75.22% second 74.42%  n=10,000  349.2s
+== 7. which habits matter (expert with one habit switched off, against random and against the full expert)
+abl_holdwild_random: 57.5189% +- 0.0156%  skill 15.04%  first 58.94% second 56.10%  n=10,000,000  9.5s
+abl_color_random: 56.8370% +- 0.0157%  skill 13.67%  first 58.04% second 55.63%  n=10,000,000  9.4s
+abl_attack_random: 62.2660% +- 0.0153%  skill 24.53%  first 63.68% second 60.85%  n=10,000,000  9.2s
+abl_chain_random: 61.9653% +- 0.0154%  skill 23.93%  first 63.37% second 60.56%  n=10,000,000  9.0s
+abl_void_random: 60.6673% +- 0.0154%  skill 21.33%  first 62.22% second 59.12%  n=10,000,000  9.0s
+abl_points_random: 62.6059% +- 0.0153%  skill 25.21%  first 63.99% second 61.22%  n=10,000,000  8.9s
+search_nodraw_random: 72.6200% +- 0.4459%  skill 45.24%  first 73.50% second 71.74%  n=10,000  263.2s
+== 8. how strength grows with the number of rollouts
+k8_search_random: 46.9650% +- 0.3529%  skill -6.07%  first 48.16% second 45.77%  n=20,000  5.9s
+k32_search_random: 57.2300% +- 0.3498%  skill 14.46%  first 57.92% second 56.54%  n=20,000  21.3s
+k128_search_random: 67.2750% +- 0.3318%  skill 34.55%  first 68.07% second 66.48%  n=20,000  69.5s
+k512_search_random: 72.2700% +- 0.4477%  skill 44.54%  first 73.08% second 71.46%  n=10,000  123.3s
+k8192_search_random: 75.0500% +- 0.6842%  skill 50.10%  first 76.20% second 73.90%  n=4,000  719.2s
+done in 169.7 min
