@@ -8,6 +8,7 @@ Code behind the Brute Force Lab YouTube channel: games and probability, simulate
 | 03 | The Perfect Strategy for Guess Who | [`03-guesswho`](03-guesswho) |
 | 04 | How Often Does Minesweeper Force You to Guess? | [`04-minesweeper`](04-minesweeper) |
 | 05 | How Much of UNO Is Luck? | [`05-uno`](05-uno) |
+| 06 | I Simulated How Much Luck You Need to Get Rich | [`06-luck`](06-luck) |
 | 07 | I Simulated 53 Million Games of Monopoly | [`07-monopoly`](07-monopoly) |
 
 Each folder has its own README with the rules, the method, the checks against published results and every number from the video.

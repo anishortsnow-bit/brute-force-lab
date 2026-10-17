@@ -1,0 +1,38 @@
+[base] 1,000,000 worlds, 183.9s | top1% holds 0.349, top20% 0.772, gini 0.744 | richest talent 0.6699±0.0934 | rich: talent pct 68, luck pct 99, luckiest5 0.983 | P(rich|top decile) 0.0204 | duel 1%v1% 0.5964
+  check: talent of the richest person, mean (10,000 runs in the paper): paper 0.667, mine 0.6699 OK
+  check: talent of the richest person, standard deviation: paper 0.09, mine 0.0934 OK
+  check: people with talent > 0.7 per world: paper 160, mine 158.6239 OK
+  check: of those, share ending above the starting capital: paper 0.32, mine 0.3145 OK
+  check: share of people with no event at all: paper 0.16, mine 0.1621 OK
+  check: share of capital held by the richest 20% ("80-20"): paper 0.8, mine 0.7718 OK
+[base100k] 100,000 worlds, 18.9s | top1% holds 0.349, top20% 0.772, gini 0.744 | richest talent 0.6697±0.0934 | rich: talent pct 68, luck pct 99, luckiest5 0.983 | P(rich|top decile) 0.0204 | duel 1%v1% 0.5970
+[indep] 100,000 worlds, 10.2s | top1% holds 0.112, top20% 0.587, gini 0.543 | richest talent 0.6615±0.0949 | rich: talent pct 67, luck pct 98, luckiest5 0.935 | P(rich|top decile) 0.0195 | duel 1%v1% 0.6409
+[mild] 100,000 worlds, 19.3s | top1% holds 0.104, top20% 0.506, gini 0.456 | richest talent 0.6697±0.0934 | rich: talent pct 68, luck pct 99, luckiest5 0.983 | P(rich|top decile) 0.0204 | duel 1%v1% 0.5970
+[opp] 100,000 worlds, 19.5s | top1% holds 0.454, top20% 0.822, gini 0.797 | richest talent 0.7273±0.0867 | rich: talent pct 82, luck pct 99, luckiest5 0.996 | P(rich|top decile) 0.0342 | duel 1%v1% 0.6731
+[pay] 100,000 worlds, 18.6s | top1% holds 0.237, top20% 0.631, gini 0.575 | richest talent 0.6819±0.0918 | rich: talent pct 73, luck pct 98, luckiest5 0.934 | P(rich|top decile) 0.0242 | duel 1%v1% 0.8494
+[shield] 100,000 worlds, 19.0s | top1% holds 0.339, top20% 0.753, gini 0.703 | richest talent 0.6784±0.0932 | rich: talent pct 72, luck pct 98, luckiest5 0.933 | P(rich|top decile) 0.0230 | duel 1%v1% 0.7474
+[start] 100,000 worlds, 18.9s | top1% holds 0.404, top20% 0.847, gini 0.820 | richest talent 0.6618±0.0952 | rich: talent pct 66, luck pct 98, luckiest5 0.794 | P(rich|top decile) 0.0186 | duel 1%v1% 0.5806
+[all] 100,000 worlds, 19.4s | top1% holds 0.347, top20% 0.701, gini 0.640 | richest talent 0.7439±0.0839 | rich: talent pct 86, luck pct 99, luckiest5 0.915 | P(rich|top decile) 0.0415 | duel 1%v1% 0.9811
+[replay base] 200,000 worlds twice, 72.7s | rich again 0.0124 | land top10% 0.112, bottom half 0.489, not above start 0.717
+[replay indep] 50,000 worlds twice, 9.9s | rich again 0.0122 | land top10% 0.111, bottom half 0.484, not above start 0.757
+[replay opp] 50,000 worlds twice, 19.0s | rich again 0.0208 | land top10% 0.144, bottom half 0.461, not above start 0.676
+[replay pay] 50,000 worlds twice, 18.6s | rich again 0.0143 | land top10% 0.126, bottom half 0.418, not above start 0.018
+[replay shield] 50,000 worlds twice, 18.3s | rich again 0.0140 | land top10% 0.121, bottom half 0.468, not above start 0.550
+[replay all] 50,000 worlds twice, 19.4s | rich again 0.0276 | land top10% 0.187, bottom half 0.256, not above start 0.000
+[pay, events x2.0] 30,000 worlds, 6.8s | top1% holds 0.237, top20% 0.631, gini 0.575 | richest talent 0.6821±0.0917 | rich: talent pct 73, luck pct 98, luckiest5 0.933 | P(rich|top decile) 0.0242 | duel 1%v1% 0.8488
+[replay pay, events x2.0] 15,000 worlds twice, 6.4s | rich again 0.0142 | land top10% 0.127, bottom half 0.416, not above start 0.018
+[pay, events x1.7] 30,000 worlds, 6.8s | top1% holds 0.118, top20% 0.492, gini 0.419 | richest talent 0.6866±0.0912 | rich: talent pct 75, luck pct 98, luckiest5 0.918 | P(rich|top decile) 0.0257 | duel 1%v1% 0.8833
+[replay pay, events x1.7] 15,000 worlds twice, 6.5s | rich again 0.0150 | land top10% 0.133, bottom half 0.400, not above start 0.007
+[pay, events x1.5] 30,000 worlds, 6.5s | top1% holds 0.065, top20% 0.404, gini 0.314 | richest talent 0.6930±0.0904 | rich: talent pct 77, luck pct 98, luckiest5 0.900 | P(rich|top decile) 0.0279 | duel 1%v1% 0.9195
+[replay pay, events x1.5] 15,000 worlds twice, 7.0s | rich again 0.0165 | land top10% 0.143, bottom half 0.379, not above start 0.002
+[pay, events x1.3] 30,000 worlds, 6.7s | top1% holds 0.034, top20% 0.324, gini 0.211 | richest talent 0.7077±0.0886 | rich: talent pct 81, luck pct 98, luckiest5 0.857 | P(rich|top decile) 0.0335 | duel 1%v1% 0.9675
+[replay pay, events x1.3] 15,000 worlds twice, 6.3s | rich again 0.0205 | land top10% 0.173, bottom half 0.323, not above start 0.000
+[pay, events x1.2] 30,000 worlds, 6.7s | top1% holds 0.024, top20% 0.288, gini 0.159 | richest talent 0.7263±0.0866 | rich: talent pct 86, luck pct 98, luckiest5 0.803 | P(rich|top decile) 0.0411 | duel 1%v1% 0.9903
+[replay pay, events x1.2] 15,000 worlds twice, 6.4s | rich again 0.0271 | land top10% 0.226, bottom half 0.256, not above start 0.000
+[pay, events x1.1] 30,000 worlds, 6.5s | top1% holds 0.017, top20% 0.257, gini 0.110 | richest talent 0.7745±0.0799 | rich: talent pct 94, luck pct 96, luckiest5 0.639 | P(rich|top decile) 0.0631 | duel 1%v1% 0.9998
+[replay pay, events x1.1] 15,000 worlds twice, 6.4s | rich again 0.0668 | land top10% 0.443, bottom half 0.104, not above start 0.000
+[pay, events x1.05] 30,000 worlds, 6.6s | top1% holds 0.015, top20% 0.245, gini 0.089 | richest talent 0.8408±0.0686 | rich: talent pct 98, luck pct 92, luckiest5 0.382 | P(rich|top decile) 0.0901 | duel 1%v1% 1.0000
+[replay pay, events x1.05] 15,000 worlds twice, 6.4s | rich again 0.2539 | land top10% 0.795, bottom half 0.009, not above start 0.000
+[pay, events x1.0] 30,000 worlds, 6.6s | top1% holds 0.014, top20% 0.239, gini 0.078 | richest talent 0.9208±0.0305 | rich: talent pct 99, luck pct 50, luckiest5 0.048 | P(rich|top decile) 0.1000 | duel 1%v1% 1.0000
+[replay pay, events x1.0] 15,000 worlds twice, 6.3s | rich again 1.0000 | land top10% 1.000, bottom half 0.000, not above start 0.000
+total careers simulated: 3,180,000,000 in 591s
