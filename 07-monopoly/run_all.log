@@ -1,0 +1,90 @@
+  check: Illinois Avenue (square 24): published 3.18%, mine 3.186% OK
+  check: GO (square 0): published 3.11%, mine 3.098% OK
+  check: B&O Railroad (square 25): published 3.06%, mine 3.066% OK
+  check: Reading Railroad (square 5): published 2.99%, mine 2.968% OK
+  check: Pennsylvania Railroad (square 15): published 2.91%, mine 2.915% OK
+  check: Short Line (square 35): published 2.44%, mine 2.434% OK
+  check: Water Works (square 28): published 2.81%, mine 2.809% OK
+  check: Electric Company (square 12): published 2.62%, mine 2.603% OK
+  check: Chance (square 36): published 0.87%, mine 0.876% OK
+  most landed: [('Illinois Avenue', 3.19), ('GO', 3.1), ('New York Avenue', 3.08), ('B&O Railroad', 3.07), ('Reading Railroad', 2.97), ('Tennessee Avenue', 2.93)] | in jail 3.94
+[4 players] 3,999,840 games, 91.2s | win [0.2062 0.2058 0.2067 0.2061] | unfinished 17.51% | rounds median 53
+[2 players] 999,840 games, 2.7s | win [0.5004 0.4996] | unfinished 0.00% | rounds median 61
+[3 players] 999,840 games, 4.5s | win [0.3291 0.3287 0.3286] | unfinished 1.36% | rounds median 55
+[5 players] 999,840 games, 65.6s | win [0.1176 0.1178 0.1177 0.1174 0.1172] | unfinished 41.23% | rounds median 49
+[6 players] 999,840 games, 133.1s | win [0.0676 0.0673 0.0675 0.0672 0.0675 0.0671] | unfinished 59.58% | rounds median 46
+[no trades] 999,840 games, 31.6s | win [0.0807 0.0808 0.0804 0.0805] | unfinished 67.76% | rounds median 61
+[Free Parking jackpot] 999,840 games, 22.0s | win [0.2044 0.2048 0.2053 0.2042] | unfinished 18.14% | rounds median 52
+[no auctions] 999,840 games, 20.8s | win [0.208  0.2075 0.2086 0.2079] | unfinished 16.79% | rounds median 54
+[jackpot and no auctions] 999,840 games, 21.2s | win [0.2063 0.2058 0.2061 0.2055] | unfinished 17.62% | rounds median 53
+[Free Parking jackpot seeded with $500] 999,840 games, 22.5s | win [0.2029 0.2026 0.2031 0.2018] | unfinished 18.96% | rounds median 52
+[seeded jackpot and no auctions] 999,840 games, 22.2s | win [0.2035 0.2034 0.2037 0.2024] | unfinished 18.71% | rounds median 54
+[4 players, cap of 10,000 rounds] 199,920 games, 35.2s | win [0.2075 0.2066 0.207  0.2054] | unfinished 17.35% | rounds median 53
+[start with 1000] 499,920 games, 11.0s | win [0.2063 0.2055 0.2077 0.2059] | unfinished 17.45% | rounds median 59
+[start with 2000] 499,920 games, 9.7s | win [0.2117 0.2106 0.2098 0.2118] | unfinished 15.60% | rounds median 48
+[start with 3000] 499,920 games, 9.9s | win [0.2103 0.2099 0.2103 0.2102] | unfinished 15.92% | rounds median 50
+[duel: brown vs light blue] 199,920 games, 0.4s | win [0.1328 0.8501] | unfinished 1.71% | rounds median 38
+[duel: brown vs pink] 199,920 games, 0.3s | win [0.1737 0.824 ] | unfinished 0.23% | rounds median 29
+[duel: brown vs orange] 199,920 games, 0.2s | win [0.0905 0.9093] | unfinished 0.02% | rounds median 18
+[duel: brown vs red] 199,920 games, 0.2s | win [0.154  0.8458] | unfinished 0.01% | rounds median 24
+[duel: brown vs yellow] 199,920 games, 0.3s | win [0.1603 0.8396] | unfinished 0.01% | rounds median 24
+[duel: brown vs green] 199,920 games, 0.3s | win [0.2513 0.7486] | unfinished 0.01% | rounds median 32
+[duel: brown vs dark blue] 199,920 games, 0.2s | win [0.245  0.7547] | unfinished 0.03% | rounds median 26
+[duel: light blue vs pink] 199,920 games, 0.3s | win [0.5193 0.4755] | unfinished 0.52% | rounds median 23
+[duel: light blue vs orange] 199,920 games, 0.2s | win [0.4033 0.5965] | unfinished 0.02% | rounds median 19
+[duel: light blue vs red] 199,920 games, 0.2s | win [0.5085 0.4914] | unfinished 0.01% | rounds median 22
+[duel: light blue vs yellow] 199,920 games, 0.3s | win [0.5139 0.4861] | unfinished 0.01% | rounds median 23
+[duel: light blue vs green] 199,920 games, 0.3s | win [0.648  0.3519] | unfinished 0.00% | rounds median 27
+[duel: light blue vs dark blue] 199,920 games, 0.2s | win [0.5983 0.4016] | unfinished 0.02% | rounds median 23
+[duel: pink vs orange] 199,920 games, 0.2s | win [0.44   0.5597] | unfinished 0.03% | rounds median 14
+[duel: pink vs red] 199,920 games, 0.2s | win [0.5084 0.4915] | unfinished 0.01% | rounds median 17
+[duel: pink vs yellow] 199,920 games, 0.2s | win [0.5334 0.4665] | unfinished 0.01% | rounds median 18
+[duel: pink vs green] 199,920 games, 0.2s | win [0.6575 0.3425] | unfinished 0.00% | rounds median 22
+[duel: pink vs dark blue] 199,920 games, 0.2s | win [0.6333 0.3665] | unfinished 0.02% | rounds median 18
+[duel: orange vs red] 199,920 games, 0.2s | win [0.5799 0.42  ] | unfinished 0.01% | rounds median 13
+[duel: orange vs yellow] 199,920 games, 0.2s | win [0.6157 0.3842] | unfinished 0.01% | rounds median 14
+[duel: orange vs green] 199,920 games, 0.2s | win [0.745  0.2549] | unfinished 0.00% | rounds median 16
+[duel: orange vs dark blue] 199,920 games, 0.2s | win [0.7207 0.2793] | unfinished 0.01% | rounds median 13
+[duel: red vs yellow] 199,920 games, 0.2s | win [0.5405 0.4595] | unfinished 0.00% | rounds median 17
+[duel: red vs green] 199,920 games, 0.2s | win [0.6724 0.3276] | unfinished 0.00% | rounds median 20
+[duel: red vs dark blue] 199,920 games, 0.2s | win [0.6657 0.3343] | unfinished 0.00% | rounds median 17
+[duel: yellow vs green] 199,920 games, 0.2s | win [0.6478 0.3522] | unfinished 0.00% | rounds median 21
+[duel: yellow vs dark blue] 199,920 games, 0.2s | win [0.6415 0.3585] | unfinished 0.00% | rounds median 17
+[duel: green vs dark blue] 199,920 games, 0.2s | win [0.4908 0.5092] | unfinished 0.00% | rounds median 22
+[head start: brown] 499,920 games, 12.9s | win [0.4382 0.1102 0.1105 0.1129] | unfinished 22.83% | rounds median 52
+[head start: light blue] 499,920 games, 1.5s | win [0.9644 0.011  0.012  0.0126] | unfinished 0.00% | rounds median 31
+[head start: pink] 499,920 games, 1.1s | win [0.9752 0.009  0.0077 0.0081] | unfinished 0.00% | rounds median 25
+[head start: orange] 499,920 games, 0.9s | win [0.9909 0.0037 0.0026 0.0028] | unfinished 0.00% | rounds median 20
+[head start: red] 499,920 games, 0.9s | win [0.9818 0.0063 0.0054 0.0064] | unfinished 0.00% | rounds median 21
+[head start: yellow] 499,920 games, 1.0s | win [0.9772 0.008  0.0069 0.008 ] | unfinished 0.00% | rounds median 21
+[head start: green] 499,920 games, 1.1s | win [0.9515 0.0162 0.0151 0.0172] | unfinished 0.00% | rounds median 24
+[head start: dark blue] 499,920 games, 1.1s | win [0.9243 0.026  0.0233 0.0264] | unfinished 0.00% | rounds median 28
+[head start: railroads] 499,920 games, 3.2s | win [0.8614 0.0402 0.0416 0.0418] | unfinished 1.51% | rounds median 42
+[head start: utilities] 499,920 games, 10.2s | win [0.3057 0.1733 0.1784 0.1787] | unfinished 16.39% | rounds median 52
+[tip: build_reserve_0] 999,840 games, 21.4s | win [0.2188 0.2018 0.2028 0.2018] | unfinished 17.47% | rounds median 53
+[tip: build_reserve_300] 999,840 games, 21.6s | win [0.175  0.2161 0.217  0.2171] | unfinished 17.48% | rounds median 54
+[tip: build_reserve_600] 999,840 games, 21.6s | win [0.1314 0.2306 0.2312 0.2318] | unfinished 17.51% | rounds median 56
+[tip: three_houses] 999,840 games, 21.9s | win [0.1677 0.2168 0.2179 0.2176] | unfinished 17.99% | rounds median 55
+[tip: four_houses] 999,840 games, 21.7s | win [0.1912 0.2095 0.2106 0.2103] | unfinished 17.85% | rounds median 54
+[tip: jail_stay] 999,840 games, 21.4s | win [0.202  0.2072 0.2087 0.2084] | unfinished 17.37% | rounds median 54
+[tip: jail_late] 999,840 games, 21.4s | win [0.2153 0.2026 0.2036 0.2032] | unfinished 17.52% | rounds median 54
+[tip: buy_reserve_200] 999,840 games, 22.0s | win [0.1948 0.212  0.2083 0.2055] | unfinished 17.94% | rounds median 53
+[tip: buy_reserve_500] 999,840 games, 21.5s | win [0.1555 0.2351 0.2205 0.2151] | unfinished 17.38% | rounds median 53
+[tip: skip_utilities] 999,840 games, 21.6s | win [0.2114 0.1985 0.2081 0.2076] | unfinished 17.43% | rounds median 53
+[tip: skip_railroads] 999,840 games, 20.9s | win [0.2082 0.2283 0.2004 0.199 ] | unfinished 16.41% | rounds median 53
+[tip: skip_brown] 999,840 games, 22.6s | win [0.1547 0.2347 0.2109 0.2094] | unfinished 19.03% | rounds median 53
+[tip: skip_green] 999,840 games, 19.0s | win [0.2116 0.2096 0.2161 0.2133] | unfinished 14.95% | rounds median 53
+[tip: skip_dark_blue] 999,840 games, 20.2s | win [0.1318 0.2663 0.2228 0.218 ] | unfinished 16.11% | rounds median 53
+[tip: skip_rail_and_util] 999,840 games, 20.3s | win [0.2129 0.2222 0.2022 0.2011] | unfinished 16.17% | rounds median 53
+[tip: only_streets_side_1_2] 999,840 games, 12.6s | win [0.0741 0.281  0.2777 0.2883] | unfinished 7.89% | rounds median 52
+[tip: bid_half] 999,840 games, 21.3s | win [0.2012 0.2096 0.2076 0.2068] | unfinished 17.48% | rounds median 53
+[tip: bid_150] 999,840 games, 21.5s | win [0.2135 0.2061 0.2035 0.202 ] | unfinished 17.48% | rounds median 53
+[tip: bid_set_1] 999,840 games, 21.3s | win [0.2008 0.2088 0.2084 0.2078] | unfinished 17.41% | rounds median 53
+[tip: bid_set_4] 999,840 games, 21.4s | win [0.21   0.2058 0.2055 0.2038] | unfinished 17.50% | rounds median 53
+[tip: never_trades] 999,840 games, 30.0s | win [0.0655 0.1829 0.1854 0.1865] | unfinished 37.96% | rounds median 56
+[best habits vs three baseline players] 1,999,920 games, 42.6s | win [0.2374 0.1993 0.1955 0.1931] | unfinished 17.48% | rounds median 53
+[baseline vs coin flips, 2 players] 999,840 games, 4.1s | win [0.6421 0.2903] | unfinished 6.77% | rounds median 68
+[best habits vs coin flips, 2 players] 999,840 games, 4.1s | win [0.5845 0.3453] | unfinished 7.01% | rounds median 66
+[best habits vs baseline, 2 players] 999,840 games, 2.7s | win [0.5333 0.4666] | unfinished 0.00% | rounds median 60
+[baseline vs three coin-flip players] 999,840 games, 21.9s | win [0.4531 0.0506 0.0507 0.0511] | unfinished 39.46% | rounds median 58
+total games: 53,290,800 in 1077s; best habits: {'build_reserve': 0, 'jail': 2, 'bid': 1.5, 'bid_set': 4.0}
