@@ -1,0 +1,2324 @@
+{
+ "grid": {
+  "source": "US Census Bureau: CenPop2020_Mean_BG.txt + cb_2020_us_bg_500k (lower 48 + DC)",
+  "cell_km": 3.0,
+  "H": 974,
+  "W": 1539,
+  "x0": -2358.0,
+  "y0": 264.0,
+  "projection": {
+   "type": "albers_spherical",
+   "phi1": 29.5,
+   "phi2": 45.5,
+   "phi0": 23.0,
+   "lam0": -96.0,
+   "R": 6371.0
+  },
+  "census_total_lower48_dc": 329260619,
+  "placed_people": 329260615,
+  "binary_closing_added": 55240,
+  "total_people": 329315855,
+  "block_groups_missing_population": 0,
+  "block_groups_smaller_than_a_subcell": 6948,
+  "land_cells": 873134,
+  "occupied_cells": 870382,
+  "largest_cell": 299457,
+  "mean_occupied": 378.3578417292637,
+  "median_occupied": 21.0,
+  "largest_cell_lonlat": [
+   -73.99134282706032,
+   40.72416814870457
+  ]
+ },
+ "A1_well_mixed": {
+  "runs": 200000,
+  "zombies_win": 0.399625,
+  "mean_final_zombies_when_they_win": 83.08256490459806,
+  "formula_final_zombies": 80.60000000000001,
+  "paper_zombies_win": 0.4,
+  "paper_formula": 81,
+  "zombies_win_by_alpha_10000_people": {
+   "0.2": 0.8031,
+   "0.4": 0.5981,
+   "0.6": 0.40585,
+   "0.8": 0.2063,
+   "0.9": 0.0979,
+   "1.0": 0.00635,
+   "1.1": 0.0,
+   "1.25": 0.0
+  }
+ },
+ "A2_lattice": {
+  "alphas": [
+   0.425,
+   0.4275,
+   0.43,
+   0.4325,
+   0.435,
+   0.4375,
+   0.44,
+   0.4425,
+   0.445,
+   0.4475,
+   0.45
+  ],
+  "reach_edge": {
+   "256": [
+    0.43866666666666665,
+    0.41833333333333333,
+    0.407,
+    0.39166666666666666,
+    0.37666666666666665,
+    0.35333333333333333,
+    0.345,
+    0.30566666666666664,
+    0.2803333333333333,
+    0.25866666666666666,
+    0.22966666666666666
+   ],
+   "512": [
+    0.44033333333333335,
+    0.4166666666666667,
+    0.403,
+    0.38433333333333336,
+    0.361,
+    0.3253333333333333,
+    0.30533333333333335,
+    0.25866666666666666,
+    0.20666666666666667,
+    0.17233333333333334,
+    0.127
+   ],
+   "1024": [
+    0.437,
+    0.4136666666666667,
+    0.396,
+    0.38066666666666665,
+    0.347,
+    0.29733333333333334,
+    0.25333333333333335,
+    0.175,
+    0.11166666666666666,
+    0.064,
+    0.03
+   ]
+  },
+  "runs_each": 3000,
+  "alpha_c_estimate": 0.436690451714962,
+  "paper_alpha_c": 0.437344654,
+  "picture_040": {
+   "seed": 9017,
+   "bitten": 920346,
+   "reached_edge": true
+  },
+  "picture_0437": {
+   "seed": 9060,
+   "bitten": 581172,
+   "reached_edge": true
+  },
+  "picture_047": {
+   "seed": 9004,
+   "bitten": 14246,
+   "reached_edge": false
+  }
+ },
+ "A3_patient_zero_ensemble": {
+  "runs": 4000,
+  "alive_7d": 0.193,
+  "alive_28d": 0.1925,
+  "paper_alive_7d": 0.20957142857142858,
+  "paper_alive_28d": 0.2082857142857143,
+  "mean_share_lost_28d_if_alive": 0.07543023036122143,
+  "counties_50k_ranked_by_28d_risk": [
+   [
+    42077,
+    364732,
+    0.2024
+   ],
+   [
+    42095,
+    332615,
+    0.2012
+   ],
+   [
+    34019,
+    125450,
+    0.2004
+   ],
+   [
+    42025,
+    63584,
+    0.1996
+   ],
+   [
+    34041,
+    98188,
+    0.1986
+   ],
+   [
+    42017,
+    672790,
+    0.1982
+   ],
+   [
+    34021,
+    372703,
+    0.1973
+   ],
+   [
+    42089,
+    169558,
+    0.1966
+   ],
+   [
+    34035,
+    409557,
+    0.1961
+   ],
+   [
+    42091,
+    957996,
+    0.1951
+   ],
+   [
+    42011,
+    432945,
+    0.1951
+   ],
+   [
+    42103,
+    58910,
+    0.1948
+   ],
+   [
+    34037,
+    142196,
+    0.1944
+   ],
+   [
+    42127,
+    51174,
+    0.1943
+   ],
+   [
+    34027,
+    513450,
+    0.1942
+   ],
+   [
+    42079,
+    329863,
+    0.194
+   ],
+   [
+    42027,
+    159228,
+    0.194
+   ],
+   [
+    34031,
+    507631,
+    0.1933
+   ],
+   [
+    36071,
+    392108,
+    0.1931
+   ],
+   [
+    36087,
+    327231,
+    0.1925
+   ],
+   [
+    42069,
+    211811,
+    0.1924
+   ],
+   [
+    34013,
+    809768,
+    0.1923
+   ],
+   [
+    34003,
+    1216474,
+    0.1923
+   ],
+   [
+    42107,
+    142955,
+    0.1923
+   ],
+   [
+    34039,
+    578461,
+    0.1918
+   ]
+  ],
+  "counties_50k_ranked_by_7d_risk": [
+   [
+    34035,
+    409557,
+    0.0794
+   ],
+   [
+    34023,
+    842696,
+    0.0787
+   ],
+   [
+    34013,
+    809768,
+    0.0777
+   ],
+   [
+    34027,
+    513450,
+    0.077
+   ],
+   [
+    34039,
+    578461,
+    0.0767
+   ],
+   [
+    36085,
+    456620,
+    0.0767
+   ],
+   [
+    34017,
+    724315,
+    0.0763
+   ],
+   [
+    34031,
+    507631,
+    0.0761
+   ],
+   [
+    34019,
+    125450,
+    0.0755
+   ],
+   [
+    34025,
+    650093,
+    0.0751
+   ],
+   [
+    34003,
+    1216474,
+    0.075
+   ],
+   [
+    36047,
+    2614121,
+    0.0748
+   ],
+   [
+    36061,
+    1836601,
+    0.0743
+   ],
+   [
+    36081,
+    2252502,
+    0.074
+   ],
+   [
+    36005,
+    1345907,
+    0.0737
+   ],
+   [
+    34021,
+    372703,
+    0.0737
+   ],
+   [
+    36087,
+    327231,
+    0.0726
+   ],
+   [
+    36119,
+    959708,
+    0.0722
+   ],
+   [
+    36059,
+    1497425,
+    0.0718
+   ],
+   [
+    34037,
+    142196,
+    0.0687
+   ],
+   [
+    34041,
+    98188,
+    0.0665
+   ],
+   [
+    36079,
+    105849,
+    0.0661
+   ],
+   [
+    9001,
+    945714,
+    0.061
+   ],
+   [
+    36071,
+    392108,
+    0.0608
+   ],
+   [
+    34029,
+    614896,
+    0.0582
+   ]
+  ],
+  "northeast_pennsylvania_rank_28d_among_984": {
+   "Lackawanna": 21,
+   "Luzerne": 16,
+   "Monroe": 8,
+   "Carbon": 4,
+   "Schuylkill": 24,
+   "Northampton": 2,
+   "Lehigh": 1,
+   "Pike": 12,
+   "Wayne": 14,
+   "Columbia": 28,
+   "Northumberland": 40,
+   "Bradford": 88
+  },
+  "patient_zero_cell_people_median_took_off": 7561.5,
+  "patient_zero_cell_people_median_died_out": 6989.0,
+  "took_off_if_patient_zero_cell_has_0_to_100_people": [
+   130,
+   0.17692307692307693
+  ],
+  "took_off_if_patient_zero_cell_has_100_to_1000_people": [
+   617,
+   0.1620745542949757
+  ],
+  "took_off_if_patient_zero_cell_has_1000_to_10000_people": [
+   1668,
+   0.1960431654676259
+  ],
+  "took_off_if_patient_zero_cell_has_10000_to_10000000_people": [
+   1585,
+   0.2031545741324921
+  ]
+ },
+ "B_long_runs": {
+  "snap_days": [
+   1.0,
+   2.0,
+   3.0,
+   4.0,
+   5.0,
+   6.0,
+   7.0,
+   10.0,
+   14.0,
+   21.0,
+   28.0,
+   42.0,
+   60.0,
+   90.0,
+   120.0
+  ],
+  "hero_seed": 2531,
+  "manhattan_tries_before_takeoff": 1,
+  "one_in_a_million_0": {
+   "start_people": 286,
+   "curve": {
+    "day1": 0.9826718896985149,
+    "day2": 0.8594994741990468,
+    "day3": 0.7563599371558026,
+    "day5": 0.6397082654656336,
+    "day7": 0.559761474624828,
+    "day14": 0.4136001786886352,
+    "day21": 0.27756042811956555,
+    "day28": 0.20583516743490238,
+    "day60": 0.08411923703431524,
+    "day90": 0.041410910824359964,
+    "day120": 0.015077397144807965,
+    "hours_to_50pct_lost": 235,
+    "hours_to_90pct_lost": 1324,
+    "hours_to_99pct_lost": null
+   },
+   "alive_at_end": true,
+   "cells_never_reached": 94950,
+   "people_in_cells_never_reached": 4726475,
+   "Montana_people_never_reached": 720513,
+   "Montana_share_still_human": 0.6799096049349826,
+   "Nevada_people_never_reached": 22056,
+   "Nevada_share_still_human": 0.010719873150782657,
+   "Wyoming_people_never_reached": 408929,
+   "Wyoming_share_still_human": 0.7113740812778628,
+   "Idaho_people_never_reached": 410737,
+   "Idaho_share_still_human": 0.23412521336787653,
+   "North Dakota_people_never_reached": 1101,
+   "North Dakota_share_still_human": 0.009549375688530495,
+   "Utah_people_never_reached": 2801077,
+   "Utah_share_still_human": 0.8846367377551606,
+   "New Mexico_people_never_reached": 8797,
+   "New Mexico_share_still_human": 0.01281460644638273,
+   "share_still_human_by_state_fips": {
+    "1": 0.0004,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0001,
+    "8": 0.0135,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0028,
+    "13": 0.0,
+    "16": 0.2341,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0,
+    "21": 0.0,
+    "22": 0.0,
+    "23": 0.0003,
+    "24": 0.0001,
+    "25": 0.0049,
+    "26": 0.0002,
+    "27": 0.0,
+    "28": 0.0,
+    "29": 0.0,
+    "30": 0.6799,
+    "31": 0.0015,
+    "32": 0.0107,
+    "33": 0.0,
+    "34": 0.0,
+    "35": 0.0128,
+    "36": 0.0,
+    "37": 0.0,
+    "38": 0.0095,
+    "39": 0.0,
+    "40": 0.0,
+    "41": 0.0008,
+    "42": 0.0,
+    "44": 0.0013,
+    "45": 0.0,
+    "46": 0.2367,
+    "47": 0.0,
+    "48": 0.0004,
+    "49": 0.8846,
+    "50": 0.0,
+    "51": 0.0,
+    "53": 0.0002,
+    "54": 0.0,
+    "55": 0.0001,
+    "56": 0.7114
+   },
+   "cities_hours_to_first_contact": {
+    "New York, NY": 33.0,
+    "Los Angeles, CA": 34.8,
+    "Chicago, IL": 67.9,
+    "Houston, TX": 37.5,
+    "Phoenix, AZ": 446.4,
+    "Philadelphia, PA": 108.9,
+    "San Antonio, TX": 494.3,
+    "San Diego, CA": 143.9,
+    "Dallas, TX": 47.0,
+    "San Francisco, CA": 22.0,
+    "Seattle, WA": 31.2,
+    "Denver, CO": 2237.8,
+    "Washington, DC": 37.1,
+    "Boston, MA": 29.2,
+    "Atlanta, GA": 277.9,
+    "Miami, FL": 1780.9,
+    "Minneapolis, MN": 733.5,
+    "Detroit, MI": 34.1,
+    "Las Vegas, NV": 1434.6,
+    "Salt Lake City, UT": null,
+    "Portland, OR": 353.7,
+    "New Orleans, LA": 931.1,
+    "St. Louis, MO": 677.4,
+    "Kansas City, MO": 38.8,
+    "Nashville, TN": 353.3,
+    "Charlotte, NC": 369.4,
+    "Pittsburgh, PA": 20.8,
+    "Cleveland, OH": 34.4,
+    "Albuquerque, NM": 2148.5,
+    "El Paso, TX": 2760.4,
+    "Omaha, NE": 557.0,
+    "Bakersfield, CA": 243.9,
+    "Scranton, PA": 134.2,
+    "Wilkes-Barre, PA": 101.6,
+    "Allentown, PA": 46.6,
+    "Billings, MT": null,
+    "Missoula, MT": 2461.0,
+    "Boise, ID": 1980.7,
+    "Reno, NV": 332.8,
+    "Elko, NV": 2645.1,
+    "Cheyenne, WY": 2300.1,
+    "Fargo, ND": 21.9
+   },
+   "cities_hours_to_half_gone": {
+    "New York, NY": 40.5,
+    "Los Angeles, CA": 43.3,
+    "Chicago, IL": 75.3,
+    "Houston, TX": 43.7,
+    "Phoenix, AZ": 452.4,
+    "Philadelphia, PA": 117.7,
+    "San Antonio, TX": 501.2,
+    "San Diego, CA": 152.6,
+    "Dallas, TX": 54.6,
+    "San Francisco, CA": 32.7,
+    "Seattle, WA": 40.1,
+    "Denver, CO": 2245.9,
+    "Washington, DC": 45.2,
+    "Boston, MA": 37.6,
+    "Atlanta, GA": 284.9,
+    "Miami, FL": 1788.2,
+    "Minneapolis, MN": 742.4,
+    "Detroit, MI": 40.9,
+    "Las Vegas, NV": 1440.2,
+    "Salt Lake City, UT": null,
+    "Portland, OR": 361.2,
+    "New Orleans, LA": 939.7,
+    "St. Louis, MO": 685.1,
+    "Kansas City, MO": 46.3,
+    "Nashville, TN": 362.9,
+    "Charlotte, NC": 374.7,
+    "Pittsburgh, PA": 31.8,
+    "Cleveland, OH": 40.7,
+    "Albuquerque, NM": 2155.5,
+    "El Paso, TX": 2767.0,
+    "Omaha, NE": 567.6,
+    "Bakersfield, CA": 252.6,
+    "Scranton, PA": 142.5,
+    "Wilkes-Barre, PA": 111.9,
+    "Allentown, PA": 54.6,
+    "Billings, MT": null,
+    "Missoula, MT": 2469.8,
+    "Boise, ID": 1988.3,
+    "Reno, NV": 340.6,
+    "Elko, NV": 2671.8,
+    "Cheyenne, WY": 2311.8,
+    "Fargo, ND": 30.8
+   }
+  },
+  "one_in_a_million_1": {
+   "start_people": 347,
+   "curve": {
+    "day1": 0.9849723667995515,
+    "day2": 0.9023089650298426,
+    "day3": 0.8269998440276276,
+    "day5": 0.686241248994594,
+    "day7": 0.6025807220795698,
+    "day14": 0.4138558064872725,
+    "day21": 0.25248126464017406,
+    "day28": 0.1536257448695007,
+    "day60": 0.02036821419820356,
+    "day90": 0.006140530026455057,
+    "day120": 0.0031251653813045934,
+    "hours_to_50pct_lost": 247,
+    "hours_to_90pct_lost": 742,
+    "hours_to_99pct_lost": 1701
+   },
+   "alive_at_end": true,
+   "cells_never_reached": 48545,
+   "people_in_cells_never_reached": 920979,
+   "Montana_people_never_reached": 143066,
+   "Montana_share_still_human": 0.14390269669424144,
+   "Nevada_people_never_reached": 18210,
+   "Nevada_share_still_human": 0.011825833360550073,
+   "Wyoming_people_never_reached": 95816,
+   "Wyoming_share_still_human": 0.18294232060175225,
+   "Idaho_people_never_reached": 0,
+   "Idaho_share_still_human": 0.0016300439299546836,
+   "North Dakota_people_never_reached": 383045,
+   "North Dakota_share_still_human": 0.5353460991378743,
+   "Utah_people_never_reached": 0,
+   "Utah_share_still_human": 0.0001462772292466509,
+   "New Mexico_people_never_reached": 0,
+   "New Mexico_share_still_human": 0.00014965621293780307,
+   "share_still_human_by_state_fips": {
+    "1": 0.0004,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0001,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0028,
+    "13": 0.0,
+    "16": 0.0016,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0,
+    "21": 0.0,
+    "22": 0.0,
+    "23": 0.0002,
+    "24": 0.0001,
+    "25": 0.0049,
+    "26": 0.0002,
+    "27": 0.0014,
+    "28": 0.0,
+    "29": 0.0,
+    "30": 0.1439,
+    "31": 0.0004,
+    "32": 0.0118,
+    "33": 0.0,
+    "34": 0.0,
+    "35": 0.0001,
+    "36": 0.0,
+    "37": 0.0,
+    "38": 0.5353,
+    "39": 0.0,
+    "40": 0.0,
+    "41": 0.0008,
+    "42": 0.0,
+    "44": 0.0013,
+    "45": 0.0,
+    "46": 0.2224,
+    "47": 0.0,
+    "48": 0.0,
+    "49": 0.0001,
+    "50": 0.0,
+    "51": 0.0,
+    "53": 0.0002,
+    "54": 0.0,
+    "55": 0.0001,
+    "56": 0.1829
+   },
+   "cities_hours_to_first_contact": {
+    "New York, NY": 91.3,
+    "Los Angeles, CA": 365.0,
+    "Chicago, IL": 320.8,
+    "Houston, TX": 12.3,
+    "Phoenix, AZ": 696.2,
+    "Philadelphia, PA": 41.1,
+    "San Antonio, TX": 606.0,
+    "San Diego, CA": 612.4,
+    "Dallas, TX": 98.1,
+    "San Francisco, CA": 729.6,
+    "Seattle, WA": 20.3,
+    "Denver, CO": 0.0,
+    "Washington, DC": 0.0,
+    "Boston, MA": 81.1,
+    "Atlanta, GA": 111.4,
+    "Miami, FL": 548.6,
+    "Minneapolis, MN": 1169.0,
+    "Detroit, MI": 65.6,
+    "Las Vegas, NV": 206.9,
+    "Salt Lake City, UT": 68.9,
+    "Portland, OR": 404.1,
+    "New Orleans, LA": 533.7,
+    "St. Louis, MO": 70.5,
+    "Kansas City, MO": 672.3,
+    "Nashville, TN": 339.3,
+    "Charlotte, NC": 24.1,
+    "Pittsburgh, PA": 49.3,
+    "Cleveland, OH": 221.2,
+    "Albuquerque, NM": 373.9,
+    "El Paso, TX": 1510.1,
+    "Omaha, NE": 42.7,
+    "Bakersfield, CA": 15.8,
+    "Scranton, PA": 230.9,
+    "Wilkes-Barre, PA": 210.6,
+    "Allentown, PA": 83.9,
+    "Billings, MT": 2755.8,
+    "Missoula, MT": 1631.8,
+    "Boise, ID": 1582.5,
+    "Reno, NV": 1062.3,
+    "Elko, NV": 2833.4,
+    "Cheyenne, WY": 1023.5,
+    "Fargo, ND": 1833.2
+   },
+   "cities_hours_to_half_gone": {
+    "New York, NY": 97.8,
+    "Los Angeles, CA": 371.8,
+    "Chicago, IL": 327.2,
+    "Houston, TX": 21.2,
+    "Phoenix, AZ": 703.6,
+    "Philadelphia, PA": 48.5,
+    "San Antonio, TX": 611.8,
+    "San Diego, CA": 619.5,
+    "Dallas, TX": 104.0,
+    "San Francisco, CA": 739.5,
+    "Seattle, WA": 30.3,
+    "Denver, CO": 743.5,
+    "Washington, DC": 15.6,
+    "Boston, MA": 88.3,
+    "Atlanta, GA": 120.0,
+    "Miami, FL": 556.1,
+    "Minneapolis, MN": 1175.6,
+    "Detroit, MI": 72.5,
+    "Las Vegas, NV": 218.0,
+    "Salt Lake City, UT": 81.5,
+    "Portland, OR": 413.7,
+    "New Orleans, LA": 541.9,
+    "St. Louis, MO": 77.6,
+    "Kansas City, MO": 680.5,
+    "Nashville, TN": 347.4,
+    "Charlotte, NC": 31.5,
+    "Pittsburgh, PA": 55.9,
+    "Cleveland, OH": 227.1,
+    "Albuquerque, NM": 385.4,
+    "El Paso, TX": 1516.9,
+    "Omaha, NE": 49.6,
+    "Bakersfield, CA": 27.8,
+    "Scranton, PA": 241.9,
+    "Wilkes-Barre, PA": 222.5,
+    "Allentown, PA": 91.6,
+    "Billings, MT": 2765.8,
+    "Missoula, MT": 1643.2,
+    "Boise, ID": 1589.6,
+    "Reno, NV": 1069.5,
+    "Elko, NV": 2843.1,
+    "Cheyenne, WY": 1032.7,
+    "Fargo, ND": 1840.6
+   }
+  },
+  "one_in_a_million_2": {
+   "start_people": 315,
+   "curve": {
+    "day1": 0.9790629105533001,
+    "day2": 0.8514692473581777,
+    "day3": 0.7403496543239979,
+    "day5": 0.6238407305750293,
+    "day7": 0.5474204506587333,
+    "day14": 0.3041160150709565,
+    "day21": 0.16101024596737445,
+    "day28": 0.08125880927792808,
+    "day60": 0.026920833289656776,
+    "day90": 0.0067842728639300595,
+    "day120": 0.001249934971023404,
+    "hours_to_50pct_lost": 202,
+    "hours_to_90pct_lost": 629,
+    "hours_to_99pct_lost": 1871
+   },
+   "alive_at_end": true,
+   "cells_never_reached": 19354,
+   "people_in_cells_never_reached": 343694,
+   "Montana_people_never_reached": 53681,
+   "Montana_share_still_human": 0.05553784604360827,
+   "Nevada_people_never_reached": 9435,
+   "Nevada_share_still_human": 0.006418987934339136,
+   "Wyoming_people_never_reached": 1250,
+   "Wyoming_share_still_human": 0.021369433877825018,
+   "Idaho_people_never_reached": 0,
+   "Idaho_share_still_human": 9.206228175823796e-06,
+   "North Dakota_people_never_reached": 162615,
+   "North Dakota_share_still_human": 0.24230489116288365,
+   "Utah_people_never_reached": 30,
+   "Utah_share_still_human": 0.0006522926130915371,
+   "New Mexico_people_never_reached": 0,
+   "New Mexico_share_still_human": 0.0017484912401855548,
+   "share_still_human_by_state_fips": {
+    "1": 0.0004,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0001,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0028,
+    "13": 0.0,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0,
+    "21": 0.0,
+    "22": 0.0,
+    "23": 0.0002,
+    "24": 0.0001,
+    "25": 0.0049,
+    "26": 0.0002,
+    "27": 0.0001,
+    "28": 0.0,
+    "29": 0.0,
+    "30": 0.0555,
+    "31": 0.0002,
+    "32": 0.0064,
+    "33": 0.0,
+    "34": 0.0,
+    "35": 0.0017,
+    "36": 0.0,
+    "37": 0.0,
+    "38": 0.2423,
+    "39": 0.0,
+    "40": 0.0,
+    "41": 0.0002,
+    "42": 0.0,
+    "44": 0.0013,
+    "45": 0.0,
+    "46": 0.0093,
+    "47": 0.0,
+    "48": 0.0004,
+    "49": 0.0007,
+    "50": 0.0,
+    "51": 0.0,
+    "53": 0.0002,
+    "54": 0.0,
+    "55": 0.0001,
+    "56": 0.0214
+   },
+   "cities_hours_to_first_contact": {
+    "New York, NY": 45.4,
+    "Los Angeles, CA": 11.8,
+    "Chicago, IL": 36.3,
+    "Houston, TX": 68.9,
+    "Phoenix, AZ": 0.0,
+    "Philadelphia, PA": 69.0,
+    "San Antonio, TX": 24.1,
+    "San Diego, CA": 0.0,
+    "Dallas, TX": 52.1,
+    "San Francisco, CA": 140.6,
+    "Seattle, WA": 70.8,
+    "Denver, CO": 33.8,
+    "Washington, DC": 0.0,
+    "Boston, MA": 257.5,
+    "Atlanta, GA": 360.1,
+    "Miami, FL": 427.7,
+    "Minneapolis, MN": 762.0,
+    "Detroit, MI": 284.5,
+    "Las Vegas, NV": 16.9,
+    "Salt Lake City, UT": 1793.7,
+    "Portland, OR": 11.4,
+    "New Orleans, LA": 198.9,
+    "St. Louis, MO": 654.1,
+    "Kansas City, MO": 603.0,
+    "Nashville, TN": 466.6,
+    "Charlotte, NC": 183.4,
+    "Pittsburgh, PA": 483.1,
+    "Cleveland, OH": 571.8,
+    "Albuquerque, NM": 1599.2,
+    "El Paso, TX": 2177.6,
+    "Omaha, NE": 27.5,
+    "Bakersfield, CA": 275.7,
+    "Scranton, PA": 245.5,
+    "Wilkes-Barre, PA": 228.2,
+    "Allentown, PA": 110.3,
+    "Billings, MT": 1205.8,
+    "Missoula, MT": 610.3,
+    "Boise, ID": 42.6,
+    "Reno, NV": 422.9,
+    "Elko, NV": 2597.0,
+    "Cheyenne, WY": 342.4,
+    "Fargo, ND": 1205.0
+   },
+   "cities_hours_to_half_gone": {
+    "New York, NY": 51.1,
+    "Los Angeles, CA": 22.2,
+    "Chicago, IL": 42.2,
+    "Houston, TX": 77.1,
+    "Phoenix, AZ": 12.7,
+    "Philadelphia, PA": 75.4,
+    "San Antonio, TX": 31.4,
+    "San Diego, CA": 24.7,
+    "Dallas, TX": 59.0,
+    "San Francisco, CA": 151.9,
+    "Seattle, WA": 77.6,
+    "Denver, CO": 38.9,
+    "Washington, DC": 24.0,
+    "Boston, MA": 265.1,
+    "Atlanta, GA": 367.7,
+    "Miami, FL": 434.8,
+    "Minneapolis, MN": 768.7,
+    "Detroit, MI": 290.2,
+    "Las Vegas, NV": 31.6,
+    "Salt Lake City, UT": 1802.9,
+    "Portland, OR": 20.5,
+    "New Orleans, LA": 206.6,
+    "St. Louis, MO": 660.0,
+    "Kansas City, MO": 609.4,
+    "Nashville, TN": 474.3,
+    "Charlotte, NC": 192.7,
+    "Pittsburgh, PA": 490.7,
+    "Cleveland, OH": 579.4,
+    "Albuquerque, NM": 1608.2,
+    "El Paso, TX": 2184.9,
+    "Omaha, NE": 33.6,
+    "Bakersfield, CA": 287.5,
+    "Scranton, PA": 255.4,
+    "Wilkes-Barre, PA": 240.0,
+    "Allentown, PA": 118.7,
+    "Billings, MT": 1215.8,
+    "Missoula, MT": 619.3,
+    "Boise, ID": 49.4,
+    "Reno, NV": 430.8,
+    "Elko, NV": 2607.1,
+    "Cheyenne, WY": 353.3,
+    "Fargo, ND": 1213.0
+   }
+  },
+  "one_in_a_million_3": {
+   "start_people": 340,
+   "curve": {
+    "day1": 0.978563303387229,
+    "day2": 0.8643634321224354,
+    "day3": 0.7854529538629933,
+    "day5": 0.6667058581515266,
+    "day7": 0.582314492386572,
+    "day14": 0.34100355401045346,
+    "day21": 0.2092637902394236,
+    "day28": 0.12569990643479625,
+    "day60": 0.0639348773500968,
+    "day90": 0.031028663485361475,
+    "day120": 0.009744699183393957,
+    "hours_to_50pct_lost": 231,
+    "hours_to_90pct_lost": 884,
+    "hours_to_99pct_lost": 2837
+   },
+   "alive_at_end": true,
+   "cells_never_reached": 51584,
+   "people_in_cells_never_reached": 2973670,
+   "Montana_people_never_reached": 221535,
+   "Montana_share_still_human": 0.2265829471179683,
+   "Nevada_people_never_reached": 5422,
+   "Nevada_share_still_human": 0.007160243836369121,
+   "Wyoming_people_never_reached": 74537,
+   "Wyoming_share_still_human": 0.2444773396216672,
+   "Idaho_people_never_reached": 41,
+   "Idaho_share_still_human": 0.001798463751288872,
+   "North Dakota_people_never_reached": 5565,
+   "North Dakota_share_still_human": 0.02139801598048057,
+   "Utah_people_never_reached": 0,
+   "Utah_share_still_human": 0.0005362480470921064,
+   "New Mexico_people_never_reached": 1653585,
+   "New Mexico_share_still_human": 0.8046315548482983,
+   "share_still_human_by_state_fips": {
+    "1": 0.0004,
+    "4": 0.0009,
+    "5": 0.0,
+    "6": 0.0001,
+    "8": 0.0114,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.0028,
+    "13": 0.0,
+    "16": 0.0018,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0,
+    "21": 0.0,
+    "22": 0.0,
+    "23": 0.0002,
+    "24": 0.0001,
+    "25": 0.0049,
+    "26": 0.0002,
+    "27": 0.0,
+    "28": 0.0,
+    "29": 0.0,
+    "30": 0.2266,
+    "31": 0.0025,
+    "32": 0.0072,
+    "33": 0.0,
+    "34": 0.0,
+    "35": 0.8046,
+    "36": 0.0,
+    "37": 0.0,
+    "38": 0.0214,
+    "39": 0.0,
+    "40": 0.0,
+    "41": 0.0009,
+    "42": 0.0,
+    "44": 0.0013,
+    "45": 0.0,
+    "46": 0.0018,
+    "47": 0.0,
+    "48": 0.0299,
+    "49": 0.0005,
+    "50": 0.0,
+    "51": 0.0,
+    "53": 0.0002,
+    "54": 0.0,
+    "55": 0.0001,
+    "56": 0.2445
+   },
+   "cities_hours_to_first_contact": {
+    "New York, NY": 27.4,
+    "Los Angeles, CA": 0.0,
+    "Chicago, IL": 114.5,
+    "Houston, TX": 602.4,
+    "Phoenix, AZ": 1600.0,
+    "Philadelphia, PA": 26.1,
+    "San Antonio, TX": 453.4,
+    "San Diego, CA": 65.7,
+    "Dallas, TX": 50.4,
+    "San Francisco, CA": 353.4,
+    "Seattle, WA": 0.0,
+    "Denver, CO": 2386.8,
+    "Washington, DC": 277.9,
+    "Boston, MA": 124.4,
+    "Atlanta, GA": 83.6,
+    "Miami, FL": 553.5,
+    "Minneapolis, MN": 48.6,
+    "Detroit, MI": 240.0,
+    "Las Vegas, NV": 35.7,
+    "Salt Lake City, UT": 35.3,
+    "Portland, OR": 333.5,
+    "New Orleans, LA": 1295.1,
+    "St. Louis, MO": 584.1,
+    "Kansas City, MO": 508.0,
+    "Nashville, TN": 160.5,
+    "Charlotte, NC": 322.1,
+    "Pittsburgh, PA": 218.7,
+    "Cleveland, OH": 302.5,
+    "Albuquerque, NM": null,
+    "El Paso, TX": null,
+    "Omaha, NE": 536.4,
+    "Bakersfield, CA": 0.9,
+    "Scranton, PA": 133.8,
+    "Wilkes-Barre, PA": 138.9,
+    "Allentown, PA": 85.4,
+    "Billings, MT": 2753.2,
+    "Missoula, MT": 2165.9,
+    "Boise, ID": 1869.8,
+    "Reno, NV": 294.3,
+    "Elko, NV": 2721.1,
+    "Cheyenne, WY": 2625.5,
+    "Fargo, ND": 681.9
+   },
+   "cities_hours_to_half_gone": {
+    "New York, NY": 33.4,
+    "Los Angeles, CA": 31.7,
+    "Chicago, IL": 119.4,
+    "Houston, TX": 609.2,
+    "Phoenix, AZ": 1608.6,
+    "Philadelphia, PA": 34.0,
+    "San Antonio, TX": 460.7,
+    "San Diego, CA": 79.8,
+    "Dallas, TX": 58.2,
+    "San Francisco, CA": 363.5,
+    "Seattle, WA": 35.7,
+    "Denver, CO": 2393.9,
+    "Washington, DC": 284.5,
+    "Boston, MA": 130.8,
+    "Atlanta, GA": 91.4,
+    "Miami, FL": 560.0,
+    "Minneapolis, MN": 54.2,
+    "Detroit, MI": 244.8,
+    "Las Vegas, NV": 43.3,
+    "Salt Lake City, UT": 42.8,
+    "Portland, OR": 343.3,
+    "New Orleans, LA": 1302.1,
+    "St. Louis, MO": 593.9,
+    "Kansas City, MO": 514.8,
+    "Nashville, TN": 168.4,
+    "Charlotte, NC": 328.4,
+    "Pittsburgh, PA": 224.3,
+    "Cleveland, OH": 309.2,
+    "Albuquerque, NM": null,
+    "El Paso, TX": null,
+    "Omaha, NE": 545.3,
+    "Bakersfield, CA": 13.0,
+    "Scranton, PA": 142.4,
+    "Wilkes-Barre, PA": 150.0,
+    "Allentown, PA": 93.4,
+    "Billings, MT": 2764.0,
+    "Missoula, MT": 2177.6,
+    "Boise, ID": 1880.5,
+    "Reno, NV": 303.3,
+    "Elko, NV": 2733.8,
+    "Cheyenne, WY": 2635.9,
+    "Fargo, ND": 693.9
+   }
+  },
+  "patient_zero_manhattan": {
+   "start_people": 1,
+   "curve": {
+    "day1": 0.9957966350560958,
+    "day2": 0.966879504801504,
+    "day3": 0.9549327024944636,
+    "day5": 0.9417625841287902,
+    "day7": 0.9307990235918143,
+    "day14": 0.8909372933853442,
+    "day21": 0.8394322152584416,
+    "day28": 0.8150935531180549,
+    "day60": 0.7094346602143509,
+    "day90": 0.5455579314927217,
+    "day120": 0.44305860267435593,
+    "hours_to_50pct_lost": 2469,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   "alive_at_end": true,
+   "cells_never_reached": 617901,
+   "people_in_cells_never_reached": 145192523,
+   "Montana_people_never_reached": 1088555,
+   "Montana_share_still_human": 1.0,
+   "Nevada_people_never_reached": 3123078,
+   "Nevada_share_still_human": 1.0,
+   "Wyoming_people_never_reached": 580970,
+   "Wyoming_share_still_human": 1.0,
+   "Idaho_people_never_reached": 1846576,
+   "Idaho_share_still_human": 1.0,
+   "North Dakota_people_never_reached": 760678,
+   "North Dakota_share_still_human": 1.0,
+   "Utah_people_never_reached": 3274604,
+   "Utah_share_still_human": 1.0,
+   "New Mexico_people_never_reached": 2131552,
+   "New Mexico_share_still_human": 1.0,
+   "share_still_human_by_state_fips": {
+    "1": 0.1404,
+    "4": 1.0,
+    "5": 0.9058,
+    "6": 1.0,
+    "8": 1.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.4813,
+    "13": 0.0,
+    "16": 1.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.2424,
+    "20": 1.0,
+    "21": 0.0,
+    "22": 1.0,
+    "23": 0.0005,
+    "24": 0.0001,
+    "25": 0.0049,
+    "26": 0.0166,
+    "27": 0.9196,
+    "28": 0.683,
+    "29": 0.448,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 0.0,
+    "34": 0.0,
+    "35": 1.0,
+    "36": 0.0,
+    "37": 0.0,
+    "38": 1.0,
+    "39": 0.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 0.0,
+    "44": 0.0013,
+    "45": 0.0,
+    "46": 1.0,
+    "47": 0.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 0.0,
+    "51": 0.0,
+    "53": 1.0,
+    "54": 0.0,
+    "55": 0.059,
+    "56": 1.0
+   },
+   "cities_hours_to_first_contact": {
+    "New York, NY": 0.0,
+    "Los Angeles, CA": null,
+    "Chicago, IL": 1877.7,
+    "Houston, TX": null,
+    "Phoenix, AZ": null,
+    "Philadelphia, PA": 208.1,
+    "San Antonio, TX": null,
+    "San Diego, CA": null,
+    "Dallas, TX": null,
+    "San Francisco, CA": null,
+    "Seattle, WA": null,
+    "Denver, CO": null,
+    "Washington, DC": 490.6,
+    "Boston, MA": 465.4,
+    "Atlanta, GA": 1962.3,
+    "Miami, FL": null,
+    "Minneapolis, MN": null,
+    "Detroit, MI": 1444.6,
+    "Las Vegas, NV": null,
+    "Salt Lake City, UT": null,
+    "Portland, OR": null,
+    "New Orleans, LA": null,
+    "St. Louis, MO": 2405.8,
+    "Kansas City, MO": null,
+    "Nashville, TN": 2168.0,
+    "Charlotte, NC": 1407.2,
+    "Pittsburgh, PA": 816.6,
+    "Cleveland, OH": 1091.4,
+    "Albuquerque, NM": null,
+    "El Paso, TX": null,
+    "Omaha, NE": null,
+    "Bakersfield, CA": null,
+    "Scranton, PA": 245.3,
+    "Wilkes-Barre, PA": 260.5,
+    "Allentown, PA": 183.0,
+    "Billings, MT": null,
+    "Missoula, MT": null,
+    "Boise, ID": null,
+    "Reno, NV": null,
+    "Elko, NV": null,
+    "Cheyenne, WY": null,
+    "Fargo, ND": null
+   },
+   "cities_hours_to_half_gone": {
+    "New York, NY": 16.0,
+    "Los Angeles, CA": null,
+    "Chicago, IL": 1884.0,
+    "Houston, TX": null,
+    "Phoenix, AZ": null,
+    "Philadelphia, PA": 213.6,
+    "San Antonio, TX": null,
+    "San Diego, CA": null,
+    "Dallas, TX": null,
+    "San Francisco, CA": null,
+    "Seattle, WA": null,
+    "Denver, CO": null,
+    "Washington, DC": 496.3,
+    "Boston, MA": 471.9,
+    "Atlanta, GA": 1969.2,
+    "Miami, FL": null,
+    "Minneapolis, MN": null,
+    "Detroit, MI": 1452.1,
+    "Las Vegas, NV": null,
+    "Salt Lake City, UT": null,
+    "Portland, OR": null,
+    "New Orleans, LA": null,
+    "St. Louis, MO": 2416.1,
+    "Kansas City, MO": null,
+    "Nashville, TN": 2177.1,
+    "Charlotte, NC": 1415.1,
+    "Pittsburgh, PA": 824.2,
+    "Cleveland, OH": 1098.8,
+    "Albuquerque, NM": null,
+    "El Paso, TX": null,
+    "Omaha, NE": null,
+    "Bakersfield, CA": null,
+    "Scranton, PA": 254.1,
+    "Wilkes-Barre, PA": 270.8,
+    "Allentown, PA": 191.6,
+    "Billings, MT": null,
+    "Missoula, MT": null,
+    "Boise, ID": null,
+    "Reno, NV": null,
+    "Elko, NV": null,
+    "Cheyenne, WY": null,
+    "Fargo, ND": null
+   }
+  },
+  "safest_counties_one_in_a_million": [
+   [
+    25019,
+    14256,
+    1.0
+   ],
+   [
+    30021,
+    9038,
+    1.0
+   ],
+   [
+    30105,
+    7803,
+    0.9999
+   ],
+   [
+    25007,
+    20623,
+    0.9955
+   ],
+   [
+    30085,
+    10647,
+    0.9955
+   ],
+   [
+    30083,
+    11499,
+    0.9928
+   ],
+   [
+    32033,
+    10589,
+    0.9631
+   ],
+   [
+    30017,
+    12001,
+    0.7745
+   ],
+   [
+    30005,
+    7139,
+    0.7627
+   ],
+   [
+    30087,
+    8615,
+    0.7592
+   ],
+   [
+    30027,
+    11527,
+    0.7539
+   ],
+   [
+    30041,
+    16369,
+    0.7497
+   ],
+   [
+    56033,
+    30785,
+    0.7492
+   ],
+   [
+    56019,
+    8824,
+    0.7418
+   ],
+   [
+    30003,
+    13307,
+    0.7403
+   ],
+   [
+    30015,
+    6058,
+    0.7389
+   ],
+   [
+    12087,
+    83207,
+    0.7111
+   ],
+   [
+    56011,
+    7399,
+    0.5828
+   ],
+   [
+    48377,
+    6402,
+    0.5748
+   ],
+   [
+    38053,
+    14881,
+    0.5485
+   ],
+   [
+    56045,
+    6841,
+    0.5417
+   ],
+   [
+    38105,
+    40713,
+    0.5394
+   ],
+   [
+    56005,
+    46993,
+    0.5307
+   ],
+   [
+    38009,
+    6459,
+    0.5176
+   ],
+   [
+    46019,
+    10562,
+    0.5144
+   ],
+   [
+    38061,
+    9838,
+    0.5117
+   ],
+   [
+    46093,
+    31190,
+    0.5089
+   ],
+   [
+    30099,
+    6225,
+    0.5012
+   ],
+   [
+    38101,
+    69781,
+    0.5003
+   ],
+   [
+    46081,
+    25791,
+    0.5
+   ]
+  ],
+  "safest_counties_over_50k": [
+   [
+    12087,
+    83207,
+    0.7111
+   ],
+   [
+    38101,
+    69781,
+    0.5003
+   ],
+   [
+    46103,
+    107435,
+    0.4995
+   ],
+   [
+    30013,
+    84295,
+    0.498
+   ],
+   [
+    56025,
+    80194,
+    0.4499
+   ],
+   [
+    35035,
+    66718,
+    0.2717
+   ],
+   [
+    30111,
+    164348,
+    0.2557
+   ],
+   [
+    30049,
+    66820,
+    0.2548
+   ],
+   [
+    49045,
+    73690,
+    0.2514
+   ],
+   [
+    35013,
+    230039,
+    0.2506
+   ],
+   [
+    49003,
+    60117,
+    0.2502
+   ],
+   [
+    35043,
+    148290,
+    0.2501
+   ],
+   [
+    48141,
+    856622,
+    0.25
+   ],
+   [
+    38015,
+    99278,
+    0.25
+   ],
+   [
+    35049,
+    153469,
+    0.25
+   ],
+   [
+    49057,
+    245371,
+    0.25
+   ],
+   [
+    16019,
+    126410,
+    0.25
+   ],
+   [
+    35001,
+    678035,
+    0.25
+   ],
+   [
+    35061,
+    75855,
+    0.25
+   ],
+   [
+    49005,
+    133161,
+    0.25
+   ]
+  ],
+  "safest_counties_manhattan_start": [
+   [
+    6105,
+    16184,
+    1.0
+   ],
+   [
+    29165,
+    119204,
+    1.0
+   ],
+   [
+    1003,
+    234132,
+    1.0
+   ],
+   [
+    56011,
+    7399,
+    1.0
+   ],
+   [
+    29159,
+    44281,
+    1.0
+   ],
+   [
+    29153,
+    8574,
+    1.0
+   ],
+   [
+    29147,
+    21103,
+    1.0
+   ],
+   [
+    29145,
+    60235,
+    1.0
+   ],
+   [
+    30105,
+    7803,
+    1.0
+   ],
+   [
+    30101,
+    5034,
+    1.0
+   ],
+   [
+    30099,
+    6225,
+    1.0
+   ],
+   [
+    30095,
+    9170,
+    1.0
+   ],
+   [
+    30093,
+    34838,
+    1.0
+   ],
+   [
+    56045,
+    6841,
+    1.0
+   ],
+   [
+    56039,
+    24296,
+    1.0
+   ],
+   [
+    56037,
+    43751,
+    1.0
+   ],
+   [
+    56035,
+    8761,
+    1.0
+   ],
+   [
+    56033,
+    30785,
+    1.0
+   ],
+   [
+    56031,
+    8620,
+    1.0
+   ],
+   [
+    56029,
+    29825,
+    1.0
+   ],
+   [
+    56025,
+    80194,
+    1.0
+   ],
+   [
+    56023,
+    19320,
+    1.0
+   ],
+   [
+    56021,
+    100287,
+    1.0
+   ],
+   [
+    56019,
+    8824,
+    1.0
+   ],
+   [
+    56015,
+    12350,
+    1.0
+   ],
+   [
+    56013,
+    39587,
+    1.0
+   ],
+   [
+    56041,
+    20333,
+    1.0
+   ],
+   [
+    31003,
+    6341,
+    1.0
+   ],
+   [
+    31001,
+    31310,
+    1.0
+   ],
+   [
+    30111,
+    164348,
+    1.0
+   ]
+  ]
+ },
+ "C_one_change": {
+  "paper": [
+   {
+    "day1": 0.9826718896985149,
+    "day2": 0.8594994741990468,
+    "day3": 0.7563599371558026,
+    "day5": 0.6397082654656336,
+    "day7": 0.559761474624828,
+    "day14": 0.4136001786886352,
+    "day21": 0.27756042811956555,
+    "day28": 0.20583516743490238,
+    "hours_to_50pct_lost": 235,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.9849723667995515,
+    "day2": 0.9023089650298426,
+    "day3": 0.8269998440276276,
+    "day5": 0.686241248994594,
+    "day7": 0.6025807220795698,
+    "day14": 0.4138558064872725,
+    "day21": 0.25248126464017406,
+    "day28": 0.1536257448695007,
+    "hours_to_50pct_lost": 247,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "zombies_3x_faster": [
+   {
+    "day1": 0.9753822978074361,
+    "day2": 0.8276657419626159,
+    "day3": 0.697604296670214,
+    "day5": 0.5006210441869937,
+    "day7": 0.36117044712108415,
+    "day14": 0.14597531883268436,
+    "day21": 0.08894855636157814,
+    "day28": 0.038453023109819455,
+    "hours_to_50pct_lost": 121,
+    "hours_to_90pct_lost": 428,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.974916503279908,
+    "day2": 0.7623937394941688,
+    "day3": 0.6063745365633991,
+    "day5": 0.42260266084907494,
+    "day7": 0.2938204872049271,
+    "day14": 0.08816584616080886,
+    "day21": 0.03266743620810745,
+    "day28": 0.006577795614682674,
+    "hours_to_50pct_lost": 97,
+    "hours_to_90pct_lost": 319,
+    "hours_to_99pct_lost": 630
+   }
+  ],
+  "zombies_10x_faster": [
+   {
+    "day1": 0.9466302254586048,
+    "day2": 0.6672046909823639,
+    "day3": 0.5134595618394624,
+    "day5": 0.32641332304562676,
+    "day7": 0.19185466928943828,
+    "day14": 0.021133111651986464,
+    "day21": 0.003228461701494727,
+    "day28": 0.00045644177254724214,
+    "hours_to_50pct_lost": 75,
+    "hours_to_90pct_lost": 212,
+    "hours_to_99pct_lost": 423
+   },
+   {
+    "day1": 0.946608140203093,
+    "day2": 0.6878808507115315,
+    "day3": 0.5057745974146094,
+    "day5": 0.3096782229590628,
+    "day7": 0.15670745030623168,
+    "day14": 0.02496679073561762,
+    "day21": 0.006083113828020303,
+    "day28": 0.0009521802990581059,
+    "hours_to_50pct_lost": 74,
+    "hours_to_90pct_lost": 191,
+    "hours_to_99pct_lost": 463
+   }
+  ],
+  "everyone_hides_half_the_encounters": [
+   {
+    "day1": 0.9856672036160229,
+    "day2": 0.8797599616648794,
+    "day3": 0.7622825267349412,
+    "day5": 0.6580134775142704,
+    "day7": 0.5894796349408383,
+    "day14": 0.40191813222616474,
+    "day21": 0.3014763973571641,
+    "day28": 0.21547148094182436,
+    "hours_to_50pct_lost": 237,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.9782985384328327,
+    "day2": 0.8256958695671106,
+    "day3": 0.7202795925935072,
+    "day5": 0.6071207983492217,
+    "day7": 0.4999340752238196,
+    "day14": 0.2675556099931782,
+    "day21": 0.13346048241777414,
+    "day28": 0.08618634467892557,
+    "hours_to_50pct_lost": 168,
+    "hours_to_90pct_lost": 609,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "humans_fight_alpha_0.9": [
+   {
+    "day1": 0.9994947022291125,
+    "day2": 0.9879203946454481,
+    "day3": 0.9491174661448186,
+    "day5": 0.8334274368266039,
+    "day7": 0.7506343718628415,
+    "day14": 0.5954270366501551,
+    "day21": 0.4713607983987792,
+    "day28": 0.38333690762428446,
+    "hours_to_50pct_lost": 461,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.9992149819765731,
+    "day2": 0.9805187761839941,
+    "day3": 0.9251056827910147,
+    "day5": 0.8089571164402083,
+    "day7": 0.7112392985807875,
+    "day14": 0.5228134191093522,
+    "day21": 0.41408385580515117,
+    "day28": 0.32083788161654425,
+    "hours_to_50pct_lost": 364,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "humans_fight_alpha_1.0": [
+   {
+    "day1": 0.9999808602549854,
+    "day2": 0.9999763569641944,
+    "day3": 0.9999654585753546,
+    "day5": 0.9999385663681757,
+    "day7": 0.9999360520561225,
+    "day14": 0.9999360490195136,
+    "day21": 0.9999360490195136,
+    "day28": 0.9999360490195136,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.9999644261283762,
+    "day2": 0.9999279777134295,
+    "day3": 0.9998991785159493,
+    "day5": 0.9998333114353354,
+    "day7": 0.9997331762248645,
+    "day14": 0.9994723710082912,
+    "day21": 0.9993382743654481,
+    "day28": 0.9992789542133208,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "humans_fight_alpha_1.1": [
+   {
+    "day1": 0.9999903010716205,
+    "day2": 0.9999900642161371,
+    "day3": 0.9999900459964846,
+    "day5": 0.9999900459964846,
+    "day7": 0.9999900186670058,
+    "day14": 0.9999900004473532,
+    "day21": 0.9999900004473532,
+    "day28": 0.9999900004473532,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.9999884548134943,
+    "day2": 0.9999883363857527,
+    "day3": 0.9999883151294914,
+    "day5": 0.9999882969098388,
+    "day7": 0.9999882756535775,
+    "day14": 0.9999882604705337,
+    "day21": 0.9999882574339249,
+    "day28": 0.9999882574339249,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "humans_fight_alpha_1.25": [
+   {
+    "day1": 0.999996684023234,
+    "day2": 0.9999966658035815,
+    "day3": 0.999996659730364,
+    "day5": 0.9999966536571464,
+    "day7": 0.9999966475839289,
+    "day14": 0.9999966202544501,
+    "day21": 0.9999966202544501,
+    "day28": 0.9999966202544501,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   },
+   {
+    "day1": 0.99999544508686,
+    "day2": 0.9999954329404249,
+    "day3": 0.9999954238305986,
+    "day5": 0.999995393464511,
+    "day7": 0.9999953843546847,
+    "day14": 0.9999953843546847,
+    "day21": 0.9999953843546847,
+    "day28": 0.9999953843546847,
+    "hours_to_50pct_lost": null,
+    "hours_to_90pct_lost": null,
+    "hours_to_99pct_lost": null
+   }
+  ],
+  "patient_zero_takes_off_by_alpha_96h": {
+   "0.5": 0.46375,
+   "0.6": 0.385,
+   "0.7": 0.28625,
+   "0.8": 0.1925,
+   "0.9": 0.10875,
+   "1.0": 0.0175,
+   "1.1": 0.00375
+  }
+ },
+ "seconds": 2882,
+ "C2_eight_draws": {
+  "seconds": 914,
+  "starting_draws": 8,
+  "paper": {
+   "runs": [
+    {
+     "day1": 0.9826718896985149,
+     "day2": 0.8594994741990468,
+     "day3": 0.7563599371558026,
+     "day5": 0.6397082654656336,
+     "day7": 0.559761474624828,
+     "day14": 0.4136001786886352,
+     "day21": 0.27756042811956555,
+     "day28": 0.20583516743490238,
+     "hours_to_50pct_lost": 235,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9849723667995515,
+     "day2": 0.9023089650298426,
+     "day3": 0.8269998440276276,
+     "day5": 0.686241248994594,
+     "day7": 0.6025807220795698,
+     "day14": 0.4138558064872725,
+     "day21": 0.25248126464017406,
+     "day28": 0.1536257448695007,
+     "hours_to_50pct_lost": 247,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9790629105533001,
+     "day2": 0.8514692473581777,
+     "day3": 0.7403496543239979,
+     "day5": 0.6238407305750293,
+     "day7": 0.5474204506587333,
+     "day14": 0.3041160150709565,
+     "day21": 0.16101024596737445,
+     "day28": 0.08125880927792808,
+     "hours_to_50pct_lost": 202,
+     "hours_to_90pct_lost": 629,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.978563303387229,
+     "day2": 0.8643634321224354,
+     "day3": 0.7854529538629933,
+     "day5": 0.6667058581515266,
+     "day7": 0.582314492386572,
+     "day14": 0.34100355401045346,
+     "day21": 0.2092637902394236,
+     "day28": 0.12569990643479625,
+     "hours_to_50pct_lost": 231,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9739328060185294,
+     "day2": 0.8183669323363281,
+     "day3": 0.7071090096266935,
+     "day5": 0.5534675806729472,
+     "day7": 0.4735670920425145,
+     "day14": 0.30913475805267043,
+     "day21": 0.1605147351865206,
+     "day28": 0.07373557463563458,
+     "hours_to_50pct_lost": 149,
+     "hours_to_90pct_lost": 596,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9805308983261641,
+     "day2": 0.8438781445100975,
+     "day3": 0.749458162715903,
+     "day5": 0.6307151907191325,
+     "day7": 0.5657718464900016,
+     "day14": 0.4094655625670582,
+     "day21": 0.2944219847413325,
+     "day28": 0.20972903210415744,
+     "hours_to_50pct_lost": 243,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9722801681401851,
+     "day2": 0.8483097682978847,
+     "day3": 0.7613834658329224,
+     "day5": 0.6463633518830855,
+     "day7": 0.5585598004768277,
+     "day14": 0.3383543618692406,
+     "day21": 0.20563137454779884,
+     "day28": 0.1227870485915583,
+     "hours_to_50pct_lost": 204,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9819670897687018,
+     "day2": 0.8428407934085378,
+     "day3": 0.7279159894978522,
+     "day5": 0.5886653683018347,
+     "day7": 0.4924106614216093,
+     "day14": 0.2786879847209508,
+     "day21": 0.1706188230898823,
+     "day28": 0.12271738271338556,
+     "hours_to_50pct_lost": 164,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    }
+   ],
+   "hours_to_50pct_lost": [
+    235,
+    247,
+    202,
+    231,
+    149,
+    243,
+    204,
+    164
+   ],
+   "days_to_50pct_lost_mean": 8.723958333333334,
+   "day7_still_human_mean": 0.547798317522582,
+   "day28_still_human_mean": 0.1369235832577329
+  },
+  "everyone_hides_half_the_encounters": {
+   "runs": [
+    {
+     "day1": 0.9856672036160229,
+     "day2": 0.8797599616648794,
+     "day3": 0.7622825267349412,
+     "day5": 0.6580134775142704,
+     "day7": 0.5894796349408383,
+     "day14": 0.40191813222616474,
+     "day21": 0.3014763973571641,
+     "day28": 0.21547148094182436,
+     "hours_to_50pct_lost": 237,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9782985384328327,
+     "day2": 0.8256958695671106,
+     "day3": 0.7202795925935072,
+     "day5": 0.6071207983492217,
+     "day7": 0.4999340752238196,
+     "day14": 0.2675556099931782,
+     "day21": 0.13346048241777414,
+     "day28": 0.08618634467892557,
+     "hours_to_50pct_lost": 168,
+     "hours_to_90pct_lost": 609,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9836632999461439,
+     "day2": 0.8735575516251123,
+     "day3": 0.7765196274304546,
+     "day5": 0.6295801549503713,
+     "day7": 0.5391257200118214,
+     "day14": 0.34607440823509833,
+     "day21": 0.2108105688997843,
+     "day28": 0.1406086594388981,
+     "hours_to_50pct_lost": 195,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9801512918650721,
+     "day2": 0.8503091929698426,
+     "day3": 0.7399397030315668,
+     "day5": 0.5965429812596419,
+     "day7": 0.5179462271976342,
+     "day14": 0.3450364072992641,
+     "day21": 0.2388877094025663,
+     "day28": 0.1654529594503534,
+     "hours_to_50pct_lost": 180,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9828265654389249,
+     "day2": 0.852310889025153,
+     "day3": 0.7205338539182025,
+     "day5": 0.5945455394932043,
+     "day7": 0.5285059491356129,
+     "day14": 0.35201141259602076,
+     "day21": 0.22750378807832988,
+     "day28": 0.16309979111411269,
+     "hours_to_50pct_lost": 195,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9749409479804262,
+     "day2": 0.8339559828741582,
+     "day3": 0.7080350842002416,
+     "day5": 0.5435845487774899,
+     "day7": 0.4701345398662578,
+     "day14": 0.3037763855641903,
+     "day21": 0.20522120461953702,
+     "day28": 0.13667958529107044,
+     "hours_to_50pct_lost": 146,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9790861345370969,
+     "day2": 0.8455915084904249,
+     "day3": 0.7324245002194436,
+     "day5": 0.6043447518770585,
+     "day7": 0.504709683015335,
+     "day14": 0.3120984001408112,
+     "day21": 0.21573989286334144,
+     "day28": 0.15078455402960836,
+     "hours_to_50pct_lost": 172,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    },
+    {
+     "day1": 0.9805189097947795,
+     "day2": 0.8460235754044554,
+     "day3": 0.7141945596287506,
+     "day5": 0.5858148824025279,
+     "day7": 0.5021071908802428,
+     "day14": 0.3219073843316551,
+     "day21": 0.1999405571688788,
+     "day28": 0.12703849823517765,
+     "hours_to_50pct_lost": 170,
+     "hours_to_90pct_lost": null,
+     "hours_to_99pct_lost": null
+    }
+   ],
+   "hours_to_50pct_lost": [
+    237,
+    168,
+    195,
+    180,
+    195,
+    146,
+    172,
+    170
+   ],
+   "days_to_50pct_lost_mean": 7.619791666666667,
+   "day7_still_human_mean": 0.5189928775339453,
+   "day28_still_human_mean": 0.14816523414749633
+  },
+  "zombies_10x_faster": {
+   "runs": [
+    {
+     "day1": 0.9466302254586048,
+     "day2": 0.6672046909823639,
+     "day3": 0.5134595618394624,
+     "day5": 0.32641332304562676,
+     "day7": 0.19185466928943828,
+     "day14": 0.021133111651986464,
+     "day21": 0.003228461701494727,
+     "day28": 0.00045644177254724214,
+     "hours_to_50pct_lost": 75,
+     "hours_to_90pct_lost": 212,
+     "hours_to_99pct_lost": 423
+    },
+    {
+     "day1": 0.946608140203093,
+     "day2": 0.6878808507115315,
+     "day3": 0.5057745974146094,
+     "day5": 0.3096782229590628,
+     "day7": 0.15670745030623168,
+     "day14": 0.02496679073561762,
+     "day21": 0.006083113828020303,
+     "day28": 0.0009521802990581059,
+     "hours_to_50pct_lost": 74,
+     "hours_to_90pct_lost": 191,
+     "hours_to_99pct_lost": 463
+    },
+    {
+     "day1": 0.9343035069563788,
+     "day2": 0.641150320599687,
+     "day3": 0.4863653230065638,
+     "day5": 0.2625206363376419,
+     "day7": 0.13575696637829127,
+     "day14": 0.02673812054056543,
+     "day21": 0.002367959657510858,
+     "day28": 0.00044629646267996297,
+     "hours_to_50pct_lost": 70,
+     "hours_to_90pct_lost": 191,
+     "hours_to_99pct_lost": 422
+    },
+    {
+     "day1": 0.9343380331979804,
+     "day2": 0.6261934464565648,
+     "day3": 0.4726965054208386,
+     "day5": 0.27531350768722973,
+     "day7": 0.19836614233219302,
+     "day14": 0.032579043563711566,
+     "day21": 0.006510932526395449,
+     "day28": 0.001967962368595159,
+     "hours_to_50pct_lost": 67,
+     "hours_to_90pct_lost": 247,
+     "hours_to_99pct_lost": 461
+    },
+    {
+     "day1": 0.9438516616377793,
+     "day2": 0.6673478215362683,
+     "day3": 0.43837103224401147,
+     "day5": 0.20545578568285855,
+     "day7": 0.09688087078958861,
+     "day14": 0.018891833238726775,
+     "day21": 0.004003559124102592,
+     "day28": 0.0006793835144915412,
+     "hours_to_50pct_lost": 66,
+     "hours_to_90pct_lost": 167,
+     "hours_to_99pct_lost": 410
+    },
+    {
+     "day1": 0.9258623388886228,
+     "day2": 0.6157634484448148,
+     "day3": 0.4901849820675499,
+     "day5": 0.24423922522846625,
+     "day7": 0.11940255985875542,
+     "day14": 0.01954863956708745,
+     "day21": 0.0022001080716911262,
+     "day28": 0.0005411236810383569,
+     "hours_to_50pct_lost": 70,
+     "hours_to_90pct_lost": 179,
+     "hours_to_99pct_lost": 381
+    },
+    {
+     "day1": 0.9180375507768053,
+     "day2": 0.5921609999518637,
+     "day3": 0.4284671752856778,
+     "day5": 0.25557456688575964,
+     "day7": 0.15341872710389404,
+     "day14": 0.047268611110905294,
+     "day21": 0.009216414284193031,
+     "day28": 0.0007307022025361441,
+     "hours_to_50pct_lost": 60,
+     "hours_to_90pct_lost": 202,
+     "hours_to_99pct_lost": 489
+    },
+    {
+     "day1": 0.9522487533293834,
+     "day2": 0.6669056578981106,
+     "day3": 0.5016460423641175,
+     "day5": 0.2795863745324336,
+     "day7": 0.14531393026170478,
+     "day14": 0.05679509351558557,
+     "day21": 0.013385395707107327,
+     "day28": 0.0006200481793204441,
+     "hours_to_50pct_lost": 73,
+     "hours_to_90pct_lost": 199,
+     "hours_to_99pct_lost": 568
+    }
+   ],
+   "hours_to_50pct_lost": [
+    75,
+    74,
+    70,
+    67,
+    66,
+    70,
+    60,
+    73
+   ],
+   "days_to_50pct_lost_mean": 2.890625,
+   "day7_still_human_mean": 0.14971266454001214,
+   "day28_still_human_mean": 0.0007992673100333695
+  }
+ }
+}
