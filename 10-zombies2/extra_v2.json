@@ -1,0 +1,71 @@
+{
+ "x100_day1_60k": {
+  "runs": 48,
+  "held": 44,
+  "zombies_ringday_median": 68865.0,
+  "zombies_day28_median": 3953.5,
+  "zombies_end_held_median": 0.0,
+  "zombies_end_held_min": 0.0,
+  "zombies_end_held_max": 0.0,
+  "outbreak_dead_share_held": 1.0,
+  "soldiers_left_held_median": 36242.0
+ },
+ "x100_day14_60k": {
+  "runs": 48,
+  "held": 43,
+  "zombies_ringday_median": 7097561.5,
+  "zombies_day28_median": 7163104.0,
+  "zombies_end_held_median": 6479122.0,
+  "zombies_end_held_min": 6335139.0,
+  "zombies_end_held_max": 6532214.0,
+  "outbreak_dead_share_held": 0.0,
+  "soldiers_left_held_median": 47791.0
+ },
+ "x100_day8_300k": {
+  "runs": 48,
+  "held": 48,
+  "zombies_ringday_median": 4890956.0,
+  "zombies_day28_median": 4913262.5,
+  "zombies_end_held_median": 3683676.0,
+  "zombies_end_held_min": 3317856.0,
+  "zombies_end_held_max": 3767419.0,
+  "outbreak_dead_share_held": 0.0,
+  "soldiers_left_held_median": 275269.0
+ },
+ "x10_day8_3M": {
+  "runs": 48,
+  "held": 48,
+  "zombies_ringday_median": 4890956.0,
+  "zombies_day28_median": 4913034.5,
+  "zombies_end_held_median": 3684313.0,
+  "zombies_end_held_min": 3317387.0,
+  "zombies_end_held_max": 3767260.0,
+  "outbreak_dead_share_held": 0.0,
+  "soldiers_left_held_median": 2720047.5
+ },
+ "D_all": {
+  "runs": 44,
+  "held": 44,
+  "zombies_ringday_median": 4770.5,
+  "zombies_day28_median": 0.0,
+  "zombies_end_held_median": 0.0,
+  "zombies_end_held_min": 0.0,
+  "zombies_end_held_max": 0.0,
+  "outbreak_dead_share_held": 1.0,
+  "soldiers_left_held_median": 59430.5
+ },
+ "day8_base": {
+  "runs": 48,
+  "bites_median": 24760532.5,
+  "destroyed_median": 19813381.5,
+  "zombies_median": 4890956.0,
+  "destroyed_per_bite": 0.7999798877467934
+ },
+ "day8_all": {
+  "runs": 44,
+  "bites_median": 11568291.0,
+  "destroyed_median": 11542289.0,
+  "zombies_median": 4770.5,
+  "destroyed_per_bite": 0.9979993843074553
+ }
+}

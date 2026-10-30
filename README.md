@@ -11,5 +11,6 @@ Code behind the Brute Force Lab YouTube channel: games and probability, simulate
 | 06 | I Simulated How Much Luck You Need to Get Rich | [`06-luck`](06-luck) |
 | 07 | I Simulated 53 Million Games of Monopoly | [`07-monopoly`](07-monopoly) |
 | 08 | I Simulated a Zombie Outbreak on 329 Million Americans | [`08-zombies`](08-zombies) |
+| 10 | Can the US Army Stop One Zombie in Manhattan? | [`10-zombies2`](10-zombies2) |
 
 Each folder has its own README with the rules, the method, the checks against published results and every number from the video.

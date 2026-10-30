@@ -1,0 +1,3197 @@
+{
+ "meta": {
+  "total_people": 329314732,
+  "patient_zero_cell_people": 299457,
+  "days": 120.0,
+  "soldiers": 60000,
+  "ring_margin_km": 15,
+  "ring_width_km": 3,
+  "police_total": 792989,
+  "watch": [
+   "Allentown, PA",
+   "Philadelphia, PA",
+   "Scranton, PA",
+   "Boston, MA",
+   "Washington, DC",
+   "Pittsburgh, PA",
+   "Cleveland, OH",
+   "Charlotte, NC",
+   "Detroit, MI",
+   "Chicago, IL",
+   "Atlanta, GA",
+   "Nashville, TN",
+   "St. Louis, MO"
+  ],
+  "police_threshold_x": 104.82071251934137,
+  "ring_crossing": "out of the ring only by crossing the square: chance exp(-kill rate / step rate)",
+  "moving_army": "section E only: every 24 h the soldiers still standing are spread evenly along the ring"
+ },
+ "A": {
+  "search_runs": 600,
+  "took_off": 142,
+  "takeoff_share": 0.23666666666666666,
+  "takeoff_seeds": [
+   10000,
+   10020,
+   10024,
+   10033,
+   10036,
+   10037,
+   10038,
+   10040,
+   10046,
+   10047,
+   10050,
+   10062,
+   10067,
+   10069,
+   10071,
+   10073,
+   10083,
+   10085,
+   10097,
+   10099,
+   10100,
+   10106,
+   10110,
+   10121,
+   10122,
+   10129,
+   10130,
+   10134,
+   10145,
+   10151,
+   10153,
+   10158,
+   10160,
+   10165,
+   10170,
+   10172,
+   10174,
+   10179,
+   10188,
+   10189,
+   10196,
+   10197,
+   10199,
+   10213,
+   10214,
+   10228,
+   10229,
+   10230,
+   10232,
+   10238,
+   10240,
+   10241,
+   10245,
+   10248,
+   10250,
+   10256,
+   10258,
+   10261,
+   10264,
+   10267,
+   10271,
+   10281,
+   10284,
+   10290,
+   10293,
+   10298,
+   10299,
+   10304,
+   10306,
+   10310,
+   10321,
+   10324,
+   10329,
+   10332,
+   10337,
+   10345,
+   10355,
+   10358,
+   10361,
+   10362,
+   10370,
+   10380,
+   10383,
+   10388,
+   10389,
+   10390,
+   10392,
+   10395,
+   10398,
+   10400,
+   10405,
+   10407,
+   10410,
+   10413,
+   10416,
+   10420,
+   10422,
+   10432,
+   10436,
+   10437,
+   10440,
+   10443,
+   10455,
+   10463,
+   10470,
+   10471,
+   10472,
+   10475,
+   10477,
+   10488,
+   10491,
+   10499,
+   10500,
+   10502,
+   10511,
+   10512,
+   10513,
+   10514,
+   10519,
+   10522,
+   10527,
+   10528,
+   10531,
+   10536,
+   10537,
+   10538,
+   10541,
+   10544,
+   10547,
+   10549,
+   10551,
+   10552,
+   10555,
+   10565,
+   10569,
+   10572,
+   10573,
+   10582,
+   10589,
+   10592,
+   10594,
+   10596
+  ]
+ },
+ "A_base": {
+  "runs": 48,
+  "took_off": 48,
+  "takeoff_share": 1.0,
+  "humans_day1": 0.9976618025245223,
+  "humans_day1_min": 0.9952494503039724,
+  "humans_day1_max": 0.9999981628517002,
+  "expected_lost_day1": 0.002338197475477699,
+  "humans_day3": 0.9562990555414933,
+  "humans_day3_min": 0.9546045118928964,
+  "humans_day3_max": 0.9634523760084927,
+  "expected_lost_day3": 0.043700944458506696,
+  "humans_day7": 0.9315181412584562,
+  "humans_day7_min": 0.930537790213406,
+  "humans_day7_max": 0.934580825251389,
+  "expected_lost_day7": 0.06848185874154378,
+  "humans_day14": 0.8920343895112067,
+  "humans_day14_min": 0.8909522183173998,
+  "humans_day14_max": 0.8941621172295444,
+  "expected_lost_day14": 0.10796561048879327,
+  "humans_day28": 0.8151354484499649,
+  "humans_day28_min": 0.8145200956269396,
+  "humans_day28_max": 0.816129100474011,
+  "expected_lost_day28": 0.18486455155003512,
+  "humans_day60": 0.7095189769073759,
+  "humans_day60_min": 0.7014868196057503,
+  "humans_day60_max": 0.7165957003101823,
+  "expected_lost_day60": 0.29048102309262414,
+  "humans_day90": 0.5443606373998071,
+  "humans_day90_min": 0.5401265589296503,
+  "humans_day90_max": 0.547955142802418,
+  "expected_lost_day90": 0.4556393626001929,
+  "humans_day120": 0.44276788882263957,
+  "humans_day120_min": 0.43517405106553203,
+  "humans_day120_max": 0.4511665211503505,
+  "expected_lost_day120": 0.5572321111773604,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 102.77083333333334,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.7999876516134083,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 7.833333492279053
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.704166412353516
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.410416603088379
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 19.362499237060547
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.575000762939453
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 34.18958282470703
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 45.11458206176758
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 59.00416564941406
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 60.00208282470703
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 78.75416564941406
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 81.95416259765625
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 89.66250610351562
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 100.1875
+   }
+  },
+  "first_video_hero": {
+   "humans_day7": 0.931,
+   "humans_day28": 0.815,
+   "humans_day60": 0.709,
+   "humans_day120": 0.443,
+   "half_lost_day": 103
+  }
+ },
+ "B0_base_same_seeds": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.9974165531651926,
+  "humans_day1_min": 0.9943677102183208,
+  "humans_day1_max": 0.9999905500735388,
+  "expected_lost_day1": 0.0005274537287731732,
+  "humans_day3": 0.9559938336510526,
+  "humans_day3_min": 0.9541324255120175,
+  "humans_day3_max": 0.9617326351497691,
+  "expected_lost_day3": 0.008984592296243423,
+  "humans_day7": 0.9313911551732863,
+  "humans_day7_min": 0.9302962340597626,
+  "humans_day7_max": 0.9341096346700942,
+  "expected_lost_day7": 0.014007639152120714,
+  "humans_day14": 0.8920091787848144,
+  "humans_day14_min": 0.8910529153004914,
+  "humans_day14_max": 0.8937707530193335,
+  "expected_lost_day14": 0.022048125998100382,
+  "humans_day28": 0.8151575793940442,
+  "humans_day28_min": 0.8143057657074388,
+  "humans_day28_max": 0.8160712773700024,
+  "expected_lost_day28": 0.037738660873715975,
+  "humans_day60": 0.7096520798522793,
+  "humans_day60_min": 0.6981548824241486,
+  "humans_day60_max": 0.716465654503425,
+  "expected_lost_day60": 0.059279367030159645,
+  "humans_day90": 0.5442759715781124,
+  "humans_day90_min": 0.5392343820196905,
+  "humans_day90_max": 0.5481777383709636,
+  "expected_lost_day90": 0.09304365580280206,
+  "humans_day120": 0.4441207316357949,
+  "humans_day120_min": 0.4356884556260909,
+  "humans_day120_max": 0.45254180733098814,
+  "expected_lost_day120": 0.1134920172910252,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 102.91666666666667,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.8000143702345036,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 7.837500095367432
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.71250057220459
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.508333206176758
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 19.35416603088379
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.579166412353516
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 34.13750076293945
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 45.04166793823242
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 59.18333435058594
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 59.89999771118164
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 78.90833282470703
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 82.05416870117188
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 89.48749542236328
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 100.3166732788086
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444
+   ]
+  }
+ },
+ "B1_unequal": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.998990641845309,
+  "humans_day1_min": 0.9980167057937754,
+  "humans_day1_max": 0.9999905500735388,
+  "expected_lost_day1": 0.0002060772899160901,
+  "humans_day3": 0.9755593890500533,
+  "humans_day3_min": 0.9713261233633483,
+  "humans_day3_max": 0.9852737805850726,
+  "expected_lost_day3": 0.004989958068947441,
+  "humans_day7": 0.9452490163415949,
+  "humans_day7_min": 0.9439794482076193,
+  "humans_day7_max": 0.9478584000912538,
+  "expected_lost_day7": 0.011178325830257716,
+  "humans_day14": 0.907525508801974,
+  "humans_day14_min": 0.90571712412793,
+  "humans_day14_max": 0.9104830421008921,
+  "expected_lost_day14": 0.01888020861959697,
+  "humans_day28": 0.83441826169043,
+  "humans_day28_min": 0.8304380685890481,
+  "humans_day28_max": 0.8400118158090784,
+  "expected_lost_day28": 0.03380627157153721,
+  "humans_day60": 0.7509835376844896,
+  "humans_day60_min": 0.7461310871449262,
+  "humans_day60_max": 0.755743308197946,
+  "expected_lost_day60": 0.05084086105608338,
+  "humans_day90": 0.6245410754899334,
+  "humans_day90_min": 0.6134852023565104,
+  "humans_day90_max": 0.6289426310876368,
+  "expected_lost_day90": 0.07665619708747193,
+  "humans_day120": 0.5017209421163603,
+  "humans_day120_min": 0.4970092774349372,
+  "humans_day120_max": 0.5090081211429072,
+  "expected_lost_day120": 0.10173197431790977,
+  "half_lost_share": 0.2653061224489796,
+  "half_lost_day_median_of_those": 119.58333333333333,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.9780687876214071,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.458333015441895
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 12.679165840148926
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 13.262499809265137
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 24.77916717529297
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 27.054166793823242
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 40.18333435058594
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 52.81666564941406
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 70.40833282470703
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 70.51250457763672
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 92.35416412353516
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 96.75833129882812
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 104.2874984741211
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 116.41666412353516
+   }
+  },
+  "classes": {
+   "levels": [
+    -4,
+    0,
+    4
+   ],
+   "win_share": [
+    0.2444,
+    0.4444,
+    0.6444
+   ]
+  },
+  "bitten_by_class": {
+   "weak": 54747402.26530612,
+   "average": 54719251.18367347,
+   "strong": 54623980.95918367
+  },
+  "bitten_weak_over_strong": 1.00225947109594
+ },
+ "B2_learning": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.9990537600513358,
+  "humans_day1_min": 0.9982628107873412,
+  "humans_day1_max": 0.9999920015725261,
+  "expected_lost_day1": 0.00019319065618559987,
+  "humans_day3": 0.9794879283209379,
+  "humans_day3_min": 0.9761750379269397,
+  "humans_day3_max": 0.9878126648764683,
+  "expected_lost_day3": 0.004187881301141847,
+  "humans_day7": 0.9477475408180746,
+  "humans_day7_min": 0.9462506584734266,
+  "humans_day7_max": 0.9505534359149168,
+  "expected_lost_day7": 0.01066821041630978,
+  "humans_day14": 0.9104568931811717,
+  "humans_day14_min": 0.9083003034313084,
+  "humans_day14_max": 0.9143549247593332,
+  "expected_lost_day14": 0.01828171764217744,
+  "humans_day28": 0.8386471343338332,
+  "humans_day28_min": 0.8340377648212834,
+  "humans_day28_max": 0.8438795595697796,
+  "expected_lost_day28": 0.03294287674017572,
+  "humans_day60": 0.7556701438985953,
+  "humans_day60_min": 0.7510372782229493,
+  "humans_day60_max": 0.7613444363005297,
+  "expected_lost_day60": 0.04988401228737012,
+  "humans_day90": 0.631342004338827,
+  "humans_day90_min": 0.6247413826600384,
+  "humans_day90_max": 0.6362846530655665,
+  "expected_lost_day90": 0.07526767411415615,
+  "humans_day120": 0.5123300834985335,
+  "humans_day120_min": 0.5092026068241612,
+  "humans_day120_max": 0.5196869996086297,
+  "expected_lost_day120": 0.09956594128571608,
+  "half_lost_share": 0.0,
+  "half_lost_day_median_of_those": null,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.9990641102543567,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.566666603088379
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 12.6875
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 13.579166412353516
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 24.90416717529297
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 27.066665649414062
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 39.81666564941406
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 52.38750076293945
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 69.80416870117188
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 69.55416870117188
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 91.72083282470703
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 95.77083587646484
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 103.13333129882812
+   },
+   "St. Louis, MO": {
+    "reached_share": 0.9795918367346939,
+    "median_day_of_reached": 115.30416870117188
+   }
+  },
+  "classes": {
+   "levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "win_share": [
+    0.4444,
+    0.4944,
+    0.5444,
+    0.5944,
+    0.6444,
+    0.6944,
+    0.7444,
+    0.7944,
+    0.8444,
+    0.8944,
+    0.9444
+   ]
+  },
+  "avg_win_share_start": 0.44444444444444453,
+  "survivors_by_level_end": {
+   "0": 164094430.36734694,
+   "1": 258040.4693877551,
+   "2": 335516.306122449,
+   "3": 444448.63265306124,
+   "4": 521360.8367346939,
+   "5": 547178.1020408163,
+   "6": 525703.5918367347,
+   "7": 471298.1224489796,
+   "8": 399991.8367346939,
+   "9": 324562.85714285716,
+   "10": 795313.0204081633
+  },
+  "veterans_1plus": 4623413.775510205,
+  "veterans_5plus": 3064047.530612245,
+  "veterans_top": 795313.0204081633
+ },
+ "B3_unequal_learning": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.9993212961281264,
+  "humans_day1_min": 0.9987987206111386,
+  "humans_day1_max": 0.9999907595995432,
+  "expected_lost_day1": 0.00013856870717419978,
+  "humans_day3": 0.9878014035199244,
+  "humans_day3_min": 0.9823826648605566,
+  "humans_day3_max": 0.9930932030092112,
+  "expected_lost_day3": 0.0024905467813487675,
+  "humans_day7": 0.9639585138664895,
+  "humans_day7_min": 0.9624960234089983,
+  "humans_day7_max": 0.9662411155052729,
+  "expected_lost_day7": 0.007358470085591737,
+  "humans_day14": 0.9403381376692201,
+  "humans_day14_min": 0.9374752326598009,
+  "humans_day14_max": 0.944318121182626,
+  "expected_lost_day14": 0.012180963559200888,
+  "humans_day28": 0.8942974791466948,
+  "humans_day28_min": 0.8911566397825166,
+  "humans_day28_max": 0.8998630191861565,
+  "expected_lost_day28": 0.02158093134088315,
+  "humans_day60": 0.8293045372430268,
+  "humans_day60_min": 0.8279210357342895,
+  "humans_day60_max": 0.8311834588681566,
+  "expected_lost_day60": 0.03485032364621537,
+  "humans_day90": 0.7483722162685837,
+  "humans_day90_min": 0.7414973557878971,
+  "humans_day90_max": 0.7578593022069842,
+  "expected_lost_day90": 0.051374005845164154,
+  "humans_day120": 0.6625662129720419,
+  "humans_day120_min": 0.6591825172279265,
+  "humans_day120_max": 0.6674868648147815,
+  "expected_lost_day120": 0.06889273151820811,
+  "half_lost_share": 0.0,
+  "half_lost_day_median_of_those": null,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.9995988068916895,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 11.72499942779541
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 14.116665840148926
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 14.90000057220459
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 27.08333396911621
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 29.504165649414062
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 43.57500076293945
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 57.108333587646484
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 76.01250457763672
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 76.45417022705078
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 99.98333740234375
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 103.60833740234375
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 111.84583282470703
+   },
+   "St. Louis, MO": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   }
+  },
+  "classes": {
+   "levels": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "win_share": [
+    0.2444,
+    0.2944,
+    0.3444,
+    0.3944,
+    0.4444,
+    0.4944,
+    0.5444,
+    0.5944,
+    0.6444,
+    0.6944,
+    0.7444,
+    0.7944,
+    0.8444,
+    0.8944,
+    0.9444
+   ]
+  },
+  "avg_win_share_start": 0.44444239108960093,
+  "survivors_by_level_end": {
+   "-4": 61909720.87755102,
+   "-3": 2479805.673469388,
+   "-2": 925492.5510204082,
+   "-1": 274378.79591836734,
+   "0": 61968913.12244898,
+   "1": 4527226.469387755,
+   "2": 2830893.714285714,
+   "3": 1325088.4897959183,
+   "4": 62415230.1632653,
+   "5": 6715172.795918368,
+   "6": 5812151.102040816,
+   "7": 3702419.4897959186,
+   "8": 1920700.5102040817,
+   "9": 858979.1836734693,
+   "10": 526641.918367347
+  }
+ },
+ "B4_police_x10": {
+  "runs": 240,
+  "took_off": 44,
+  "takeoff_share": 0.18333333333333332,
+  "humans_day1": 0.9982890815249319,
+  "humans_day1_min": 0.9964035407927029,
+  "humans_day1_max": 0.9999689415656023,
+  "expected_lost_day1": 0.00031366838709581864,
+  "humans_day3": 0.9578198853275388,
+  "humans_day3_min": 0.9563049490297324,
+  "humans_day3_max": 0.9621461058717531,
+  "expected_lost_day3": 0.007733021023284551,
+  "humans_day7": 0.9335339833671774,
+  "humans_day7_min": 0.932755932704523,
+  "humans_day7_max": 0.9358080737183662,
+  "expected_lost_day7": 0.01218543638268414,
+  "humans_day14": 0.8946752587679004,
+  "humans_day14_min": 0.8939724779758714,
+  "humans_day14_max": 0.8959513842824377,
+  "expected_lost_day14": 0.019309535892551584,
+  "humans_day28": 0.8173353987560282,
+  "humans_day28_min": 0.8167454105879478,
+  "humans_day28_max": 0.818068275791561,
+  "expected_lost_day28": 0.033488510228061485,
+  "humans_day60": 0.7274505610887211,
+  "humans_day60_min": 0.7255674702096231,
+  "humans_day60_max": 0.7289432954976336,
+  "expected_lost_day60": 0.049967397133734465,
+  "humans_day90": 0.5651969249393809,
+  "humans_day90_min": 0.5614407891111292,
+  "humans_day90_max": 0.5682524127101608,
+  "expected_lost_day90": 0.07971389709444683,
+  "humans_day120": 0.47292227548778754,
+  "humans_day120_min": 0.4611441221524217,
+  "humans_day120_max": 0.479258422608315,
+  "expected_lost_day120": 0.09663091616057227,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 108.75,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.8173416480579184,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.370833396911621
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 9.295833587646484
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 11.09375
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.537500381469727
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 21.93958282470703
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 35.96458435058594
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 47.672916412353516
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 62.770835876464844
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 63.17292022705078
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 83.22291564941406
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 87.02708435058594
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 94.67708587646484
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 105.96458435058594
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444,
+    0.8889
+   ]
+  }
+ },
+ "B4_police_x100": {
+  "runs": 240,
+  "took_off": 2,
+  "takeoff_share": 0.008333333333333333,
+  "humans_day1": 0.9999947785512371,
+  "humans_day1_min": 0.9999938326476083,
+  "humans_day1_max": 0.9999957244548658,
+  "expected_lost_day1": 4.351207302429512e-08,
+  "humans_day3": 0.9999776930720488,
+  "humans_day3_min": 0.9999754216886962,
+  "humans_day3_max": 0.9999799644554013,
+  "expected_lost_day3": 1.8589106626036115e-07,
+  "humans_day7": 0.9999720313150158,
+  "humans_day7_min": 0.9999705054191138,
+  "humans_day7_max": 0.9999735572109176,
+  "expected_lost_day7": 2.3307237486854445e-07,
+  "humans_day14": 0.9999720313150158,
+  "humans_day14_min": 0.9999705054191138,
+  "humans_day14_max": 0.9999735572109176,
+  "expected_lost_day14": 2.3307237486854445e-07,
+  "humans_day28": 0.9999720313150158,
+  "humans_day28_min": 0.9999705054191138,
+  "humans_day28_max": 0.9999735572109176,
+  "expected_lost_day28": 2.3307237486854445e-07,
+  "humans_day60": 0.9999720313150158,
+  "humans_day60_min": 0.9999705054191138,
+  "humans_day60_max": 0.9999735572109176,
+  "expected_lost_day60": 2.3307237486854445e-07,
+  "humans_day90": 0.9999720313150158,
+  "humans_day90_min": 0.9999705054191138,
+  "humans_day90_max": 0.9999735572109176,
+  "expected_lost_day90": 2.3307237486854445e-07,
+  "humans_day120": 0.9999720313150158,
+  "humans_day120_min": 0.9999705054191138,
+  "humans_day120_max": 0.9999735572109176,
+  "expected_lost_day120": 2.3307237486854445e-07,
+  "half_lost_share": 0.0,
+  "half_lost_day_median_of_those": null,
+  "alive_at_end": 0.0,
+  "destroyed_per_bite": 1.000108583527879,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Philadelphia, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Scranton, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Boston, MA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Washington, DC": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Cleveland, OH": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Charlotte, NC": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Detroit, MI": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Chicago, IL": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Atlanta, GA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Nashville, TN": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "St. Louis, MO": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444,
+    0.9877
+   ]
+  }
+ },
+ "B4_police_x100_close_combat": {
+  "runs": 240,
+  "took_off": 52,
+  "takeoff_share": 0.21666666666666667,
+  "humans_day1": 0.9984264800869536,
+  "humans_day1_min": 0.9964171144338602,
+  "humans_day1_max": 0.9999971577342006,
+  "expected_lost_day1": 0.0003409293144933952,
+  "humans_day3": 0.9622902953261696,
+  "humans_day3_min": 0.9594654544637863,
+  "humans_day3_max": 0.9742185873421539,
+  "expected_lost_day3": 0.008170436012663252,
+  "humans_day7": 0.9358025889605859,
+  "humans_day7_min": 0.9341438633240374,
+  "humans_day7_max": 0.9398504710685096,
+  "expected_lost_day7": 0.013909439058539726,
+  "humans_day14": 0.8954814877052493,
+  "humans_day14_min": 0.8941136681367781,
+  "humans_day14_max": 0.8985265590851247,
+  "expected_lost_day14": 0.02264567766386266,
+  "humans_day28": 0.8172795338930567,
+  "humans_day28_min": 0.8166289232393041,
+  "humans_day28_max": 0.8189588220426167,
+  "expected_lost_day28": 0.03958943432317104,
+  "humans_day60": 0.7243859503843413,
+  "humans_day60_min": 0.7148662696329054,
+  "humans_day60_max": 0.7279096156560648,
+  "expected_lost_day60": 0.05971637741672606,
+  "humans_day90": 0.55827328370992,
+  "humans_day90_min": 0.5521489545751631,
+  "humans_day90_max": 0.5638347117735383,
+  "expected_lost_day90": 0.095707455196184,
+  "humans_day120": 0.46201491205169565,
+  "humans_day120_min": 0.45169621503601604,
+  "humans_day120_max": 0.47268550378730095,
+  "expected_lost_day120": 0.11656343572213261,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 106.60416666666666,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.9765535675174193,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.554166793823242
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 9.706249237060547
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 11.195833206176758
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.850000381469727
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 22.25
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 35.460418701171875
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 46.708335876464844
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 61.98124694824219
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 61.92083740234375
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 81.52082824707031
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 85.35416412353516
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 92.42291259765625
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 103.54583740234375
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444,
+    0.9877
+   ]
+  }
+ },
+ "B5_terrain": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.9974153820877286,
+  "humans_day1_min": 0.9943940133234003,
+  "humans_day1_max": 0.9999905500735388,
+  "expected_lost_day1": 0.000527692823755407,
+  "humans_day3": 0.9559888114719931,
+  "humans_day3_min": 0.9541648686400097,
+  "humans_day3_max": 0.9617025271739134,
+  "expected_lost_day3": 0.008985617657801408,
+  "humans_day7": 0.9313823689627397,
+  "humans_day7_min": 0.9301670749427633,
+  "humans_day7_max": 0.93417645220925,
+  "expected_lost_day7": 0.014009433003440637,
+  "humans_day14": 0.8920381971758697,
+  "humans_day14_min": 0.891105536693694,
+  "humans_day14_max": 0.8940335745441234,
+  "expected_lost_day14": 0.022042201409926594,
+  "humans_day28": 0.8150941589524883,
+  "humans_day28_min": 0.8141353876631308,
+  "humans_day28_max": 0.8160215802310357,
+  "expected_lost_day28": 0.03775160921386698,
+  "humans_day60": 0.7092561920245899,
+  "humans_day60_min": 0.7012310673061538,
+  "humans_day60_max": 0.7174256479968227,
+  "expected_lost_day60": 0.05936019412831289,
+  "humans_day90": 0.5439294560342242,
+  "humans_day90_min": 0.5399648807694397,
+  "humans_day90_max": 0.5478609654183342,
+  "expected_lost_day90": 0.0931144027263459,
+  "humans_day120": 0.44332188880028606,
+  "humans_day120_min": 0.43624422487117887,
+  "humans_day120_max": 0.4522730219065936,
+  "expected_lost_day120": 0.11365511436994158,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 103.0,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.799976679591224,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 7.854166507720947
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.6875
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.370833396911621
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 19.320833206176758
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.545833587646484
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 34.20833206176758
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 45.10416793823242
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 58.93333435058594
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 59.95000076293945
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 78.95417022705078
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 81.76667022705078
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 89.42916870117188
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 100.5666732788086
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444
+   ]
+  }
+ },
+ "B5_terrain_slopes_x3": {
+  "runs": 240,
+  "took_off": 49,
+  "takeoff_share": 0.20416666666666666,
+  "humans_day1": 0.997418114663783,
+  "humans_day1_min": 0.9944048813461525,
+  "humans_day1_max": 0.9999905500735388,
+  "expected_lost_day1": 0.0005271349228109604,
+  "humans_day3": 0.9560351553892579,
+  "humans_day3_min": 0.9541559774495603,
+  "humans_day3_max": 0.9617506422397162,
+  "expected_lost_day3": 0.008976155774693184,
+  "humans_day7": 0.9316402864263539,
+  "humans_day7_min": 0.9304775499688244,
+  "humans_day7_max": 0.9342610460560872,
+  "expected_lost_day7": 0.013956774854619415,
+  "humans_day14": 0.8924758871456643,
+  "humans_day14_min": 0.8911260125465629,
+  "humans_day14_max": 0.8942357641018015,
+  "expected_lost_day14": 0.02195283970776021,
+  "humans_day28": 0.8159215271949161,
+  "humans_day28_min": 0.8150053942925335,
+  "humans_day28_max": 0.8166079706388598,
+  "expected_lost_day28": 0.03758268819770463,
+  "humans_day60": 0.7161422306339518,
+  "humans_day60_min": 0.7095951874998413,
+  "humans_day60_max": 0.7226332316041058,
+  "expected_lost_day60": 0.057954294578901513,
+  "humans_day90": 0.548922300833341,
+  "humans_day90_min": 0.5445191714046974,
+  "humans_day90_max": 0.5574208657024187,
+  "expected_lost_day90": 0.0920950302465262,
+  "humans_day120": 0.4461178989919552,
+  "humans_day120_min": 0.43677418597841533,
+  "humans_day120_max": 0.4551304373470908,
+  "expected_lost_day120": 0.11308426228914248,
+  "half_lost_share": 1.0,
+  "half_lost_day_median_of_those": 103.91666666666667,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.7999888272511825,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 7.920833587646484
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 8.699999809265137
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 10.72499942779541
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 19.40833282470703
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 20.65416717529297
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 35.30416488647461
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 46.070831298828125
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 59.508331298828125
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 60.70833206176758
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 79.77083587646484
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 82.40416717529297
+   },
+   "Nashville, TN": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 91.17083740234375
+   },
+   "St. Louis, MO": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 101.57083129882812
+   }
+  },
+  "classes": {
+   "levels": [
+    0
+   ],
+   "win_share": [
+    0.4444
+   ]
+  }
+ },
+ "C": {
+  "x10_day8_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.8984256820564388,
+   "humans_day14_min": 0.897464520354346,
+   "humans_day14_max": 0.9010498564637551,
+   "expected_lost_day14": 0.1015743179435612,
+   "humans_day28": 0.8206461539984593,
+   "humans_day28_min": 0.8200241160179861,
+   "humans_day28_max": 0.8215364048760503,
+   "expected_lost_day28": 0.1793538460015407,
+   "humans_day60": 0.7155668126168129,
+   "humans_day60_min": 0.7062050294184835,
+   "humans_day60_max": 0.7209913159912931,
+   "expected_lost_day60": 0.2844331873831871,
+   "humans_day90": 0.5464150375959089,
+   "humans_day90_min": 0.5423158870402434,
+   "humans_day90_max": 0.5516874811419005,
+   "expected_lost_day90": 0.4535849624040911,
+   "humans_day120": 0.44545791177460387,
+   "humans_day120_min": 0.43776103523968674,
+   "humans_day120_max": 0.45622709038112513,
+   "expected_lost_day120": 0.5545420882253962,
+   "half_lost_share": 1.0,
+   "half_lost_day_median_of_those": 103.6875,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8023904854256599,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 8.712499618530273
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 17.741666793823242
+    },
+    "Boston, MA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 20.256250381469727
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 20.791667938232422
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 35.431251525878906
+    },
+    "Cleveland, OH": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 46.59375
+    },
+    "Charlotte, NC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 59.37708282470703
+    },
+    "Detroit, MI": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 61.23542022705078
+    },
+    "Chicago, IL": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 80.07083129882812
+    },
+    "Atlanta, GA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 82.10416412353516
+    },
+    "Nashville, TN": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 89.63542175292969
+    },
+    "St. Louis, MO": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 101.33125305175781
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 154710594.0,
+   "lost_outside_mean": 154531797.5625,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 1.0,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 2104746.7916666665,
+   "saved_vs_no_army_day28": 1814756.5208333333,
+   "saved_vs_no_army_day60": 1991641.3958333333,
+   "saved_vs_no_army_day90": 676544.25,
+   "saved_vs_no_army_day120": 885864.1875
+  },
+  "x10_day8_soldiers300000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9057740656031953,
+   "humans_day14_min": 0.9049743028198326,
+   "humans_day14_max": 0.907887446104294,
+   "expected_lost_day14": 0.09422593439680471,
+   "humans_day28": 0.8605670116589258,
+   "humans_day28_min": 0.85965739911083,
+   "humans_day28_max": 0.8617685831315922,
+   "expected_lost_day28": 0.1394329883410742,
+   "humans_day60": 0.7226796647049688,
+   "humans_day60_min": 0.7163036635725122,
+   "humans_day60_max": 0.728270859743985,
+   "expected_lost_day60": 0.2773203352950312,
+   "humans_day90": 0.5496339596644586,
+   "humans_day90_min": 0.5433688766769171,
+   "humans_day90_max": 0.555048020141413,
+   "expected_lost_day90": 0.4503660403355414,
+   "humans_day120": 0.44783388036119404,
+   "humans_day120_min": 0.44099779599292266,
+   "humans_day120_max": 0.4573892127000258,
+   "expected_lost_day120": 0.5521661196388059,
+   "half_lost_share": 1.0,
+   "half_lost_day_median_of_those": 104.54166666666667,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8101136510326477,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 8.71875
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 21.670833587646484
+    },
+    "Boston, MA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 51.83333206176758
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 21.135417938232422
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 36.295833587646484
+    },
+    "Cleveland, OH": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 47.57291793823242
+    },
+    "Charlotte, NC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 59.55000305175781
+    },
+    "Detroit, MI": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 62.26874542236328
+    },
+    "Chicago, IL": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 81.25416564941406
+    },
+    "Atlanta, GA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 82.39582824707031
+    },
+    "Nashville, TN": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 89.85624694824219
+    },
+    "St. Louis, MO": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 102.55207824707031
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 153893881.0,
+   "lost_outside_mean": 153749357.60416666,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 0.8541909027777778,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 4524677.75,
+   "saved_vs_no_army_day28": 14961283.0625,
+   "saved_vs_no_army_day60": 4334008.375,
+   "saved_vs_no_army_day90": 1736582.7083333333,
+   "saved_vs_no_army_day120": 1668305.6458333333
+  },
+  "x10_day8_soldiers1300000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147129273939273,
+   "humans_day14_min": 0.9127891855138749,
+   "humans_day14_max": 0.9201774823726987,
+   "expected_lost_day14": 0.08528707260607271,
+   "humans_day28": 0.9111802434866473,
+   "humans_day28_min": 0.8925759264240872,
+   "humans_day28_max": 0.9201769540027744,
+   "expected_lost_day28": 0.08881975651335272,
+   "humans_day60": 0.8598087768410757,
+   "humans_day60_min": 0.7857748009888607,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.1401912231589243,
+   "humans_day90": 0.743921046325981,
+   "humans_day90_min": 0.6137052957594378,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.256078953674019,
+   "humans_day120": 0.608798477558443,
+   "humans_day120_min": 0.4865728630688772,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.39120152244155704,
+   "half_lost_share": 0.3125,
+   "half_lost_day_median_of_those": 118.33333333333333,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8209909311956968,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9583333333333334,
+     "median_day_of_reached": 8.710416793823242
+    },
+    "Scranton, PA": {
+     "reached_share": 0.9166666666666666,
+     "median_day_of_reached": 49.44791793823242
+    },
+    "Boston, MA": {
+     "reached_share": 0.8541666666666666,
+     "median_day_of_reached": 82.99583435058594
+    },
+    "Washington, DC": {
+     "reached_share": 0.9166666666666666,
+     "median_day_of_reached": 48.56458282470703
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.8958333333333334,
+     "median_day_of_reached": 63.1583366394043
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.8541666666666666,
+     "median_day_of_reached": 74.04166412353516
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.8541666666666666,
+     "median_day_of_reached": 86.39166259765625
+    },
+    "Detroit, MI": {
+     "reached_share": 0.8125,
+     "median_day_of_reached": 82.00833129882812
+    },
+    "Chicago, IL": {
+     "reached_share": 0.6041666666666666,
+     "median_day_of_reached": 96.4333267211914
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.5833333333333334,
+     "median_day_of_reached": 96.90415954589844
+    },
+    "Nashville, TN": {
+     "reached_share": 0.5,
+     "median_day_of_reached": 104.36249542236328
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.375,
+     "median_day_of_reached": 116.76666259765625
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 120711920.5,
+   "lost_outside_mean": 100741654.6875,
+   "outside_outbreak_alive_at_end_share": 0.9166666666666666,
+   "held_share": 0.08333333333333333,
+   "soldiers_lost_share": 0.28971259615384615,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 7468376.625,
+   "saved_vs_no_army_day28": 31628965.9375,
+   "saved_vs_no_army_day60": 49492645.1875,
+   "saved_vs_no_army_day90": 65718182.583333336,
+   "saved_vs_no_army_day120": 54676318.833333336
+  },
+  "x10_day8_soldiers3000000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147130077375342,
+   "humans_day14_min": 0.9127905185851206,
+   "humans_day14_max": 0.9201774428967848,
+   "expected_lost_day14": 0.08528699226246583,
+   "humans_day28": 0.9147123216537425,
+   "humans_day28_min": 0.9127887755716924,
+   "humans_day28_max": 0.9201769540027744,
+   "expected_lost_day28": 0.0852876783462575,
+   "humans_day60": 0.9147122099951078,
+   "humans_day60_min": 0.9127873483655751,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.08528779000489217,
+   "humans_day90": 0.9147121265516297,
+   "humans_day90_min": 0.9127863736141631,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.0852878734483703,
+   "humans_day120": 0.914712042981626,
+   "humans_day120_min": 0.9127854990708403,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.085287957018374,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8711240551582735,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9375,
+     "median_day_of_reached": 8.704166412353516
+    },
+    "Scranton, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 0.0,
+   "outside_outbreak_alive_at_end_share": 0.0,
+   "held_share": 1.0,
+   "soldiers_lost_share": 0.0934689305555555,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 7468403.083333333,
+   "saved_vs_no_army_day28": 32792131.3125,
+   "saved_vs_no_army_day60": 67573154.5625,
+   "saved_vs_no_army_day90": 121962201.39583333,
+   "saved_vs_no_army_day120": 155418162.64583334
+  },
+  "x100_day1_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9718086721266593,
+   "humans_day3_min": 0.9671840341476129,
+   "humans_day3_max": 0.981455330094373,
+   "expected_lost_day3": 0.028191327873340666,
+   "humans_day7": 0.9718081029523047,
+   "humans_day7_min": 0.9671792788182947,
+   "humans_day7_max": 0.981455330094373,
+   "expected_lost_day7": 0.028191897047695313,
+   "humans_day14": 0.971806622858585,
+   "humans_day14_min": 0.9671759628415287,
+   "humans_day14_max": 0.981455330094373,
+   "expected_lost_day14": 0.02819337714141501,
+   "humans_day28": 0.96924890223,
+   "humans_day28_min": 0.9138973381852835,
+   "humans_day28_max": 0.981455330094373,
+   "expected_lost_day28": 0.030751097769999958,
+   "humans_day60": 0.9567978914722022,
+   "humans_day60_min": 0.7753785913227835,
+   "humans_day60_max": 0.981455330094373,
+   "expected_lost_day60": 0.04320210852779782,
+   "humans_day90": 0.9476263138550793,
+   "humans_day90_min": 0.6479693170847881,
+   "humans_day90_max": 0.981455330094373,
+   "expected_lost_day90": 0.05237368614492066,
+   "humans_day120": 0.9348133709644264,
+   "humans_day120_min": 0.5047060208651704,
+   "humans_day120_max": 0.981455330094373,
+   "expected_lost_day120": 0.0651866290355736,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 0.08333333333333333,
+   "destroyed_per_bite": 0.8917525017443684,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 30.84375
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 32.59583282470703
+    },
+    "Scranton, PA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 32.61458206176758
+    },
+    "Boston, MA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 38.95000076293945
+    },
+    "Washington, DC": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 44.21666717529297
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 57.37083435058594
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 68.48124694824219
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 83.19999694824219
+    },
+    "Detroit, MI": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 83.44791412353516
+    },
+    "Chicago, IL": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 101.68333435058594
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 105.3687515258789
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0625,
+     "median_day_of_reached": 113.1624984741211
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.020833333333333332,
+     "median_day_of_reached": 117.5250015258789
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 30.5,
+   "people_inside_zone_median": 8738779.5,
+   "people_outside_ring_median": 319983260.0,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 12182818.6875,
+   "outside_outbreak_alive_at_end_share": 0.08333333333333333,
+   "held_share": 0.9166666666666666,
+   "soldiers_lost_share": 0.41490208333333334,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 5107545.229166667,
+   "saved_vs_no_army_day7": 13268077.9375,
+   "saved_vs_no_army_day14": 26270171.645833332,
+   "saved_vs_no_army_day28": 50751830.729166664,
+   "saved_vs_no_army_day60": 81432589.47916667,
+   "saved_vs_no_army_day90": 132801328.16666667,
+   "saved_vs_no_army_day120": 162037826.08333334
+  },
+  "x100_day2_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9568909710589564,
+   "humans_day3_min": 0.9549459026327435,
+   "humans_day3_max": 0.9644011067199993,
+   "expected_lost_day3": 0.043109028941043626,
+   "humans_day7": 0.9567295007799205,
+   "humans_day7_min": 0.9546356037299905,
+   "humans_day7_max": 0.9643059272550248,
+   "expected_lost_day7": 0.04327049922007953,
+   "humans_day14": 0.9567291647918138,
+   "humans_day14_min": 0.9546356037299905,
+   "humans_day14_max": 0.964298408611735,
+   "expected_lost_day14": 0.0432708352081862,
+   "humans_day28": 0.9552653502683263,
+   "humans_day28_min": 0.9447616755875956,
+   "humans_day28_max": 0.9642978559489407,
+   "expected_lost_day28": 0.04473464973167374,
+   "humans_day60": 0.8908943327098608,
+   "humans_day60_min": 0.789894771546388,
+   "humans_day60_max": 0.9642978559489407,
+   "expected_lost_day60": 0.10910566729013915,
+   "humans_day90": 0.8003000206906424,
+   "humans_day90_min": 0.6774567710502547,
+   "humans_day90_max": 0.9642978559489407,
+   "expected_lost_day90": 0.19969997930935757,
+   "humans_day120": 0.6794955466290326,
+   "humans_day120_min": 0.5278387454588579,
+   "humans_day120_max": 0.9642978559489407,
+   "expected_lost_day120": 0.32050445337096745,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8340789008686852,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 0.9166666666666666,
+     "median_day_of_reached": 54.650001525878906
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.8958333333333334,
+     "median_day_of_reached": 56.795833587646484
+    },
+    "Scranton, PA": {
+     "reached_share": 0.9166666666666666,
+     "median_day_of_reached": 55.333335876464844
+    },
+    "Boston, MA": {
+     "reached_share": 0.8958333333333334,
+     "median_day_of_reached": 60.320831298828125
+    },
+    "Washington, DC": {
+     "reached_share": 0.8958333333333334,
+     "median_day_of_reached": 68.17082977294922
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.875,
+     "median_day_of_reached": 79.90833282470703
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.8125,
+     "median_day_of_reached": 90.42499542236328
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.7083333333333334,
+     "median_day_of_reached": 101.66458129882812
+    },
+    "Detroit, MI": {
+     "reached_share": 0.7083333333333334,
+     "median_day_of_reached": 101.16666412353516
+    },
+    "Chicago, IL": {
+     "reached_share": 0.3333333333333333,
+     "median_day_of_reached": 115.27708435058594
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.20833333333333334,
+     "median_day_of_reached": 113.9937515258789
+    },
+    "Nashville, TN": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 117.9708251953125
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 52.0,
+   "people_inside_zone_median": 4206191.0,
+   "people_outside_ring_median": 314931222.0,
+   "lost_outside_median": 101106715.5,
+   "lost_outside_mean": 91297050.25,
+   "outside_outbreak_alive_at_end_share": 0.9791666666666666,
+   "held_share": 0.020833333333333332,
+   "soldiers_lost_share": 0.7585701388888889,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 194926.5,
+   "saved_vs_no_army_day7": 8302472.104166667,
+   "saved_vs_no_army_day14": 21304942.583333332,
+   "saved_vs_no_army_day28": 46146841.0625,
+   "saved_vs_no_army_day60": 59729576.6875,
+   "saved_vs_no_army_day90": 84284609.41666667,
+   "saved_vs_no_army_day120": 77957905.1875
+  },
+  "x100_day3_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.948000519264653,
+   "humans_day7_min": 0.946704352115046,
+   "humans_day7_max": 0.9529313890518569,
+   "expected_lost_day7": 0.05199948073534699,
+   "humans_day14": 0.9480002273706357,
+   "humans_day14_min": 0.9467043490784373,
+   "humans_day14_max": 0.9529313343928992,
+   "expected_lost_day14": 0.05199977262936428,
+   "humans_day28": 0.9477249579008612,
+   "humans_day28_min": 0.944371434922626,
+   "humans_day28_max": 0.9529312372214189,
+   "expected_lost_day28": 0.0522750420991388,
+   "humans_day60": 0.9330560899033816,
+   "humans_day60_min": 0.8685677718177516,
+   "humans_day60_max": 0.9482192737129052,
+   "expected_lost_day60": 0.06694391009661838,
+   "humans_day90": 0.808920716547739,
+   "humans_day90_min": 0.747299382889436,
+   "humans_day90_max": 0.8684361074985252,
+   "expected_lost_day90": 0.191079283452261,
+   "humans_day120": 0.7032178303950479,
+   "humans_day120_min": 0.5872443082807483,
+   "humans_day120_max": 0.7714110645982276,
+   "expected_lost_day120": 0.2967821696049521,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8369145892597011,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 68.86666870117188
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 70.11666870117188
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 69.80208587646484
+    },
+    "Boston, MA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 78.59791564941406
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 81.73124694824219
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 94.91041564941406
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.9583333333333334,
+     "median_day_of_reached": 104.78541564941406
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.4583333333333333,
+     "median_day_of_reached": 111.00208282470703
+    },
+    "Detroit, MI": {
+     "reached_share": 0.5,
+     "median_day_of_reached": 110.91250610351562
+    },
+    "Chicago, IL": {
+     "reached_share": 0.041666666666666664,
+     "median_day_of_reached": 118.07499694824219
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 79.5,
+   "people_inside_zone_median": 2690577.0,
+   "people_outside_ring_median": 312097896.0,
+   "lost_outside_median": 76771650.0,
+   "lost_outside_mean": 80610253.14583333,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 0.7597381944444445,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 5427889.895833333,
+   "saved_vs_no_army_day14": 18430374.895833332,
+   "saved_vs_no_army_day28": 43663678.770833336,
+   "saved_vs_no_army_day60": 73614064.45833333,
+   "saved_vs_no_army_day90": 87123531.5625,
+   "saved_vs_no_army_day120": 85770002.70833333
+  },
+  "x100_day5_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.935670258811359,
+   "humans_day7_min": 0.9344969784103069,
+   "humans_day7_max": 0.9397277708183429,
+   "expected_lost_day7": 0.06432974118864099,
+   "humans_day14": 0.9356657298991816,
+   "humans_day14_min": 0.9344942211695528,
+   "humans_day14_max": 0.9397274428645968,
+   "expected_lost_day14": 0.06433427010081838,
+   "humans_day28": 0.9356655423885906,
+   "humans_day28_min": 0.9344938324836315,
+   "humans_day28_max": 0.9397274428645968,
+   "expected_lost_day28": 0.06433445761140943,
+   "humans_day60": 0.9347255601469215,
+   "humans_day60_min": 0.9334864284176634,
+   "humans_day60_max": 0.9380262313925269,
+   "expected_lost_day60": 0.06527443985307846,
+   "humans_day90": 0.8862546093013335,
+   "humans_day90_min": 0.8263266946709205,
+   "humans_day90_max": 0.9344642619875263,
+   "expected_lost_day90": 0.11374539069866652,
+   "humans_day120": 0.760402462233302,
+   "humans_day120_min": 0.6755229006882085,
+   "humans_day120_max": 0.8636225238778568,
+   "expected_lost_day120": 0.239597537766698,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8387831996199726,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 83.01874542236328
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 79.40833282470703
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 88.89791870117188
+    },
+    "Boston, MA": {
+     "reached_share": 0.8333333333333334,
+     "median_day_of_reached": 106.4625015258789
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 91.00625610351562
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.9166666666666666,
+     "median_day_of_reached": 105.69583129882812
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.625,
+     "median_day_of_reached": 113.61457824707031
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.14583333333333334,
+     "median_day_of_reached": 115.9416732788086
+    },
+    "Detroit, MI": {
+     "reached_share": 0.08333333333333333,
+     "median_day_of_reached": 116.98542022705078
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 120.0,
+   "people_inside_zone_median": 2287832.0,
+   "people_outside_ring_median": 308002459.5,
+   "lost_outside_median": 59313018.0,
+   "lost_outside_mean": 57716376.625,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 0.6444788194444444,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 1367353.4791666667,
+   "saved_vs_no_army_day14": 14368443.166666666,
+   "saved_vs_no_army_day28": 39692335.583333336,
+   "saved_vs_no_army_day60": 74163845.60416667,
+   "saved_vs_no_army_day90": 112590721.72916667,
+   "saved_vs_no_army_day120": 104601744.41666667
+  },
+  "x100_day8_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9089469143457573,
+   "humans_day14_min": 0.9068143905569338,
+   "humans_day14_max": 0.9201774611164374,
+   "expected_lost_day14": 0.09105308565424275,
+   "humans_day28": 0.8630714905404435,
+   "humans_day28_min": 0.860784907126475,
+   "humans_day28_max": 0.8931376261660836,
+   "expected_lost_day28": 0.13692850945955648,
+   "humans_day60": 0.7341898938971042,
+   "humans_day60_min": 0.726621027692135,
+   "humans_day60_max": 0.7823747891120765,
+   "expected_lost_day60": 0.2658101061028958,
+   "humans_day90": 0.5600140579068699,
+   "humans_day90_min": 0.5525804688263992,
+   "humans_day90_max": 0.620135041514025,
+   "expected_lost_day90": 0.43998594209313013,
+   "humans_day120": 0.4558406032808962,
+   "humans_day120_min": 0.4476141686852928,
+   "humans_day120_max": 0.4862646472797336,
+   "expected_lost_day120": 0.5441593967191038,
+   "half_lost_share": 1.0,
+   "half_lost_day_median_of_those": 106.22916666666666,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.814408095230044,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 8.716667175292969
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 23.316667556762695
+    },
+    "Boston, MA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 57.37291717529297
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 22.579166412353516
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 38.12916564941406
+    },
+    "Cleveland, OH": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 49.327083587646484
+    },
+    "Charlotte, NC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 61.26457977294922
+    },
+    "Detroit, MI": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 64.07499694824219
+    },
+    "Chicago, IL": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 82.86874389648438
+    },
+    "Atlanta, GA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 84.07292175292969
+    },
+    "Nashville, TN": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 91.74791717529297
+    },
+    "St. Louis, MO": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 104.12709045410156
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 151022773.0,
+   "lost_outside_mean": 151112686.20833334,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 0.5434579861111111,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 5569543.583333333,
+   "saved_vs_no_army_day28": 15786044.854166666,
+   "saved_vs_no_army_day60": 8124496.416666667,
+   "saved_vs_no_army_day90": 5154901.979166667,
+   "saved_vs_no_army_day120": 4305037.458333333
+  },
+  "x100_day14_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.8920343895112067,
+   "humans_day14_min": 0.8909522183173998,
+   "humans_day14_max": 0.8941621172295444,
+   "expected_lost_day14": 0.10796561048879327,
+   "humans_day28": 0.8872051646351289,
+   "humans_day28_min": 0.8859272776172066,
+   "humans_day28_max": 0.8894614165029215,
+   "expected_lost_day28": 0.11279483536487112,
+   "humans_day60": 0.8872040524771704,
+   "humans_day60_min": 0.8859264030738837,
+   "humans_day60_max": 0.889460183639765,
+   "expected_lost_day60": 0.11279594752282962,
+   "humans_day90": 0.8872037206644009,
+   "humans_day90_min": 0.8859262755363159,
+   "humans_day90_max": 0.8894597797707999,
+   "expected_lost_day90": 0.1127962793355991,
+   "humans_day120": 0.8859377811203822,
+   "humans_day120_min": 0.8530582834660431,
+   "humans_day120_max": 0.8889160810455331,
+   "expected_lost_day120": 0.11406221887961776,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8259398953911001,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 8.704166412353516
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 10.410416603088379
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.020833333333333332,
+     "median_day_of_reached": 113.77916717529297
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 262.0,
+   "people_inside_zone_median": 1579271.0,
+   "people_outside_ring_median": 292106992.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 416803.3958333333,
+   "outside_outbreak_alive_at_end_share": 0.10416666666666667,
+   "held_share": 0.8958333333333334,
+   "soldiers_lost_share": 0.20524895833333334,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 0.0,
+   "saved_vs_no_army_day28": 23733619.270833332,
+   "saved_vs_no_army_day60": 58514313.041666664,
+   "saved_vs_no_army_day90": 112903278.08333333,
+   "saved_vs_no_army_day120": 145942374.3125
+  },
+  "x100_day8_soldiers300000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147130504398447,
+   "humans_day14_min": 0.9127906036101658,
+   "humans_day14_max": 0.920177555251309,
+   "expected_lost_day14": 0.08528694956015526,
+   "humans_day28": 0.9147123458833498,
+   "humans_day28_min": 0.912788969914653,
+   "humans_day28_max": 0.9201769540027744,
+   "expected_lost_day28": 0.08528765411665018,
+   "humans_day60": 0.9147122411836103,
+   "humans_day60_min": 0.9127877583077577,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.08528775881638972,
+   "humans_day90": 0.9147121688743644,
+   "humans_day90_min": 0.9127869110939136,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.08528783112563565,
+   "humans_day120": 0.9147120989058374,
+   "humans_day120_min": 0.9127861306854623,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.08528790109416262,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8699498416094765,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9375,
+     "median_day_of_reached": 8.708333015441895
+    },
+    "Scranton, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 0.0,
+   "outside_outbreak_alive_at_end_share": 0.0,
+   "held_share": 1.0,
+   "soldiers_lost_share": 0.082638125,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 7468417.145833333,
+   "saved_vs_no_army_day28": 32792139.291666668,
+   "saved_vs_no_army_day60": 67573164.83333333,
+   "saved_vs_no_army_day90": 121962215.33333333,
+   "saved_vs_no_army_day120": 155418181.0625
+  },
+  "x100_day8_soldiers1300000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147130913075378,
+   "humans_day14_min": 0.9127914326043574,
+   "humans_day14_max": 0.9201774428967848,
+   "expected_lost_day14": 0.08528690869246225,
+   "humans_day28": 0.9147124520381311,
+   "humans_day28_min": 0.9127906734521674,
+   "humans_day28_max": 0.9201769570393832,
+   "expected_lost_day28": 0.08528754796186888,
+   "humans_day60": 0.9147124178762827,
+   "humans_day60_min": 0.912790360681465,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.08528758212371734,
+   "humans_day90": 0.9147124025667134,
+   "humans_day90_min": 0.9127901572286782,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.08528759743328662,
+   "humans_day120": 0.9147123872571443,
+   "humans_day120_min": 0.9127900175446751,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.08528761274285568,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8699572813762477,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9375,
+     "median_day_of_reached": 8.708333015441895
+    },
+    "Scranton, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 0.0,
+   "outside_outbreak_alive_at_end_share": 0.0,
+   "held_share": 1.0,
+   "soldiers_lost_share": 0.019143974358974414,
+   "saved_vs_no_army_day1": 0.0,
+   "saved_vs_no_army_day3": 0.0,
+   "saved_vs_no_army_day7": 0.0,
+   "saved_vs_no_army_day14": 7468430.604166667,
+   "saved_vs_no_army_day28": 32792174.25,
+   "saved_vs_no_army_day60": 67573223.02083333,
+   "saved_vs_no_army_day90": 121962292.29166667,
+   "saved_vs_no_army_day120": 155418276.02083334
+  }
+ },
+ "C_showcase": true,
+ "D_all": {
+  "runs": 240,
+  "took_off": 44,
+  "takeoff_share": 0.18333333333333332,
+  "humans_day1": 0.9994523743184819,
+  "humans_day1_min": 0.9989994070474807,
+  "humans_day1_max": 0.999966870598428,
+  "expected_lost_day1": 0.00010039804161165455,
+  "humans_day3": 0.990709112885967,
+  "humans_day3_min": 0.9889833413222461,
+  "humans_day3_max": 0.9927914946726404,
+  "expected_lost_day3": 0.0017033293042393888,
+  "humans_day7": 0.9679509476335572,
+  "humans_day7_min": 0.966685462465129,
+  "humans_day7_max": 0.9691393763702014,
+  "expected_lost_day7": 0.005875659600514521,
+  "humans_day14": 0.9597669734954067,
+  "humans_day14_min": 0.9586485338287265,
+  "humans_day14_max": 0.9606970361714641,
+  "expected_lost_day14": 0.00737605485917543,
+  "humans_day28": 0.9597669529982974,
+  "humans_day28_min": 0.9586485307921178,
+  "humans_day28_max": 0.9606970331348553,
+  "expected_lost_day28": 0.0073760586169788105,
+  "humans_day60": 0.9597669529982974,
+  "humans_day60_min": 0.9586485307921178,
+  "humans_day60_max": 0.9606970331348553,
+  "expected_lost_day60": 0.0073760586169788105,
+  "humans_day90": 0.9597669529982974,
+  "humans_day90_min": 0.9586485307921178,
+  "humans_day90_max": 0.9606970331348553,
+  "expected_lost_day90": 0.0073760586169788105,
+  "humans_day120": 0.9597669529982974,
+  "humans_day120_min": 0.9586485307921178,
+  "humans_day120_max": 0.9606970331348553,
+  "expected_lost_day120": 0.0073760586169788105,
+  "half_lost_share": 0.0,
+  "half_lost_day_median_of_those": null,
+  "alive_at_end": 0.0,
+  "destroyed_per_bite": 1.000000075472228,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Philadelphia, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Scranton, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Boston, MA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Washington, DC": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Cleveland, OH": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Charlotte, NC": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Detroit, MI": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Chicago, IL": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Atlanta, GA": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "Nashville, TN": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   },
+   "St. Louis, MO": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   }
+  },
+  "ring_built_share": 1.0,
+  "ring_cells_median": 107.5,
+  "people_inside_zone_median": 7751221.0,
+  "people_outside_ring_median": 309998300.5,
+  "lost_outside_median": 0.0,
+  "lost_outside_mean": 0.0,
+  "outside_outbreak_alive_at_end_share": 0.0,
+  "held_share": 1.0,
+  "soldiers_lost_share": 0.009547727272727347
+ },
+ "D_no_army": {
+  "runs": 240,
+  "took_off": 44,
+  "takeoff_share": 0.18333333333333332,
+  "humans_day1": 0.9994523743184819,
+  "humans_day1_min": 0.9989994070474807,
+  "humans_day1_max": 0.999966870598428,
+  "expected_lost_day1": 0.00010039804161165455,
+  "humans_day3": 0.990709112885967,
+  "humans_day3_min": 0.9889833413222461,
+  "humans_day3_max": 0.9927914946726404,
+  "expected_lost_day3": 0.0017033293042393888,
+  "humans_day7": 0.9679509476335572,
+  "humans_day7_min": 0.966685462465129,
+  "humans_day7_max": 0.9691393763702014,
+  "expected_lost_day7": 0.005875659600514521,
+  "humans_day14": 0.9477935741533611,
+  "humans_day14_min": 0.9454409588939982,
+  "humans_day14_max": 0.9492825665631017,
+  "expected_lost_day14": 0.009571178071883802,
+  "humans_day28": 0.9095481490084634,
+  "humans_day28_min": 0.9056140768096582,
+  "humans_day28_max": 0.9125183139392622,
+  "expected_lost_day28": 0.01658283934844838,
+  "humans_day60": 0.8428964797061731,
+  "humans_day60_min": 0.839883024121739,
+  "humans_day60_max": 0.845723379299047,
+  "expected_lost_day60": 0.028802312053868264,
+  "humans_day90": 0.7787100293963274,
+  "humans_day90_min": 0.7745856082745791,
+  "humans_day90_max": 0.7843034122141854,
+  "expected_lost_day90": 0.040569827944006646,
+  "humans_day120": 0.6958064177258633,
+  "humans_day120_min": 0.6894181885552573,
+  "humans_day120_max": 0.7011745226144331,
+  "expected_lost_day120": 0.055768823416925066,
+  "half_lost_share": 0.0,
+  "half_lost_day_median_of_those": null,
+  "alive_at_end": 1.0,
+  "destroyed_per_bite": 0.9995533603448312,
+  "first_contact": {
+   "Allentown, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 12.59375
+   },
+   "Philadelphia, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 15.381250381469727
+   },
+   "Scranton, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 16.106250762939453
+   },
+   "Boston, MA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 29.733333587646484
+   },
+   "Washington, DC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 32.37291717529297
+   },
+   "Pittsburgh, PA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 47.116668701171875
+   },
+   "Cleveland, OH": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 61.506248474121094
+   },
+   "Charlotte, NC": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 82.43541717529297
+   },
+   "Detroit, MI": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 82.32499694824219
+   },
+   "Chicago, IL": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 107.7520751953125
+   },
+   "Atlanta, GA": {
+    "reached_share": 1.0,
+    "median_day_of_reached": 112.38749694824219
+   },
+   "Nashville, TN": {
+    "reached_share": 0.25,
+    "median_day_of_reached": 119.20833587646484
+   },
+   "St. Louis, MO": {
+    "reached_share": 0.0,
+    "median_day_of_reached": null
+   }
+  }
+ },
+ "seconds": 2060,
+ "E": {
+  "breach_x10_day8_soldiers60000": {
+   "breached": 48,
+   "runs": 48,
+   "breach_day_min": 8.950000000000001,
+   "breach_day_median": 9.058333333333334,
+   "breach_day_max": 9.154166666666667,
+   "standing_at_breach_min": 0.94415,
+   "standing_at_breach_median": 0.9727583333333334,
+   "standing_at_breach_max": 0.988
+  },
+  "breach_x100_day8_soldiers60000": {
+   "breached": 48,
+   "runs": 48,
+   "breach_day_min": 10.070833333333335,
+   "breach_day_median": 10.575000000000001,
+   "breach_day_max": 17.566666666666666,
+   "standing_at_breach_min": 0.9032333333333333,
+   "standing_at_breach_median": 0.9522666666666667,
+   "standing_at_breach_max": 0.9612333333333334
+  },
+  "moving_x100_day8_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147127500053657,
+   "humans_day14_min": 0.9127868260688684,
+   "humans_day14_max": 0.9201775309584389,
+   "expected_lost_day14": 0.08528724999463433,
+   "humans_day28": 0.9147118371881199,
+   "humans_day28_min": 0.9127822681191196,
+   "humans_day28_max": 0.9201769540027744,
+   "expected_lost_day28": 0.08528816281188012,
+   "humans_day60": 0.9147115153075913,
+   "humans_day60_min": 0.9127788974833959,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.08528848469240868,
+   "humans_day90": 0.9147112976207007,
+   "humans_day90_min": 0.9127772182387516,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.08528870237929931,
+   "humans_day120": 0.9147111047327817,
+   "humans_day120_min": 0.9127759155335936,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.08528889526721828,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8699577494286854,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9375,
+     "median_day_of_reached": 8.708333015441895
+    },
+    "Scranton, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 0.0,
+   "outside_outbreak_alive_at_end_share": 0.0,
+   "held_share": 1.0,
+   "soldiers_lost_share": 0.4138628472222222,
+   "breached": 0,
+   "zombies_end_median": 3684292.0
+  },
+  "moving_x10_day8_soldiers60000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.8992181056094792,
+   "humans_day14_min": 0.8975502468562506,
+   "humans_day14_max": 0.9049524362001515,
+   "expected_lost_day14": 0.10078189439052077,
+   "humans_day28": 0.8206255371330711,
+   "humans_day28_min": 0.8194887801132443,
+   "humans_day28_max": 0.8246499370091952,
+   "expected_lost_day28": 0.17937446286692893,
+   "humans_day60": 0.7163709378049731,
+   "humans_day60_min": 0.7079436367274331,
+   "humans_day60_max": 0.7213005581541976,
+   "expected_lost_day60": 0.2836290621950269,
+   "humans_day90": 0.5469304466413405,
+   "humans_day90_min": 0.5424245004623722,
+   "humans_day90_max": 0.5516575766188316,
+   "expected_lost_day90": 0.4530695533586595,
+   "humans_day120": 0.446106609408635,
+   "humans_day120_min": 0.4394166702508772,
+   "humans_day120_max": 0.4540204475273824,
+   "expected_lost_day120": 0.553893390591365,
+   "half_lost_share": 1.0,
+   "half_lost_day_median_of_those": 103.875,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8023747879753131,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 8.712499618530273
+    },
+    "Scranton, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 17.233333587646484
+    },
+    "Boston, MA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 20.327083587646484
+    },
+    "Washington, DC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 20.774999618530273
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 35.625
+    },
+    "Cleveland, OH": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 46.602081298828125
+    },
+    "Charlotte, NC": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 59.306251525878906
+    },
+    "Detroit, MI": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 61.49166488647461
+    },
+    "Chicago, IL": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 80.35624694824219
+    },
+    "Atlanta, GA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 82.02708435058594
+    },
+    "Nashville, TN": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 89.79791259765625
+    },
+    "St. Louis, MO": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 101.89375305175781
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 154523873.0,
+   "lost_outside_mean": 154318171.875,
+   "outside_outbreak_alive_at_end_share": 1.0,
+   "held_share": 0.0,
+   "soldiers_lost_share": 1.0,
+   "breached": 48,
+   "breach_day_min": 8.950000000000001,
+   "breach_day_median": 9.079166666666667,
+   "breach_day_max": 9.145833333333334,
+   "standing_at_breach_min": 0.9331,
+   "standing_at_breach_median": 0.95855,
+   "standing_at_breach_max": 0.988,
+   "zombies_end_median": 36035488.5
+  },
+  "moving_x10_day8_soldiers1300000": {
+   "runs": 48,
+   "took_off": 48,
+   "takeoff_share": 1.0,
+   "humans_day1": 0.9976618025245223,
+   "humans_day1_min": 0.9952494503039724,
+   "humans_day1_max": 0.9999981628517002,
+   "expected_lost_day1": 0.002338197475477699,
+   "humans_day3": 0.9562990555414933,
+   "humans_day3_min": 0.9546045118928964,
+   "humans_day3_max": 0.9634523760084927,
+   "expected_lost_day3": 0.043700944458506696,
+   "humans_day7": 0.9315181412584562,
+   "humans_day7_min": 0.930537790213406,
+   "humans_day7_max": 0.934580825251389,
+   "expected_lost_day7": 0.06848185874154378,
+   "humans_day14": 0.9147129090477494,
+   "humans_day14_min": 0.912789361637183,
+   "humans_day14_max": 0.9201774186039148,
+   "expected_lost_day14": 0.08528709095225062,
+   "humans_day28": 0.9147121462895865,
+   "humans_day28_min": 0.9127864829320785,
+   "humans_day28_max": 0.9201769540027744,
+   "expected_lost_day28": 0.08528785371041347,
+   "humans_day60": 0.9147119353085404,
+   "humans_day60_min": 0.9127839929128952,
+   "humans_day60_max": 0.9201769540027744,
+   "expected_lost_day60": 0.08528806469145955,
+   "humans_day90": 0.9147117884758543,
+   "humans_day90_min": 0.9127825323040817,
+   "humans_day90_max": 0.9201769540027744,
+   "expected_lost_day90": 0.08528821152414567,
+   "humans_day120": 0.9147116549915942,
+   "humans_day120_min": 0.9127813814293616,
+   "humans_day120_max": 0.9201769540027744,
+   "expected_lost_day120": 0.08528834500840576,
+   "half_lost_share": 0.0,
+   "half_lost_day_median_of_those": null,
+   "alive_at_end": 1.0,
+   "destroyed_per_bite": 0.8711254621021102,
+   "first_contact": {
+    "Allentown, PA": {
+     "reached_share": 1.0,
+     "median_day_of_reached": 7.833333492279053
+    },
+    "Philadelphia, PA": {
+     "reached_share": 0.9375,
+     "median_day_of_reached": 8.708333015441895
+    },
+    "Scranton, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Boston, MA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Washington, DC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Pittsburgh, PA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Cleveland, OH": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Charlotte, NC": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Detroit, MI": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Chicago, IL": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Atlanta, GA": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "Nashville, TN": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    },
+    "St. Louis, MO": {
+     "reached_share": 0.0,
+     "median_day_of_reached": null
+    }
+   },
+   "ring_built_share": 1.0,
+   "ring_cells_median": 175.0,
+   "people_inside_zone_median": 3441444.0,
+   "people_outside_ring_median": 301093056.5,
+   "lost_outside_median": 0.0,
+   "lost_outside_mean": 0.0,
+   "outside_outbreak_alive_at_end_share": 0.0,
+   "held_share": 1.0,
+   "soldiers_lost_share": 0.21561823717948725,
+   "breached": 0,
+   "zombies_end_median": 3685449.5
+  }
+ },
+ "E_showcase": true
+}

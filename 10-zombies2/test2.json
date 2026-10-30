@@ -1,0 +1,144 @@
+{
+ "T1_room_alpha06_zombies_win": {
+  "paper": 0.4,
+  "here": 0.39986,
+  "runs": 200000,
+  "undecided_after_3000h": 0
+ },
+ "T2_T4_manhattan_5x5_12h": {
+  "cells": 25,
+  "people": 3039004,
+  "new_split": {
+   "runs": 1500,
+   "alive": 0.18866666666666668,
+   "humans_mean": 3037380.52,
+   "humans_se": 143.607218066845
+  },
+  "new_exact": {
+   "runs": 750,
+   "alive": 0.18533333333333332,
+   "humans_mean": 3037166.8226666665,
+   "humans_se": 221.57675656561398
+  },
+  "old_split": {
+   "runs": 1500,
+   "alive": 0.19866666666666666,
+   "humans_mean": 3037018.7753333333,
+   "humans_se": 169.55788472861846
+  },
+  "z_new_vs_old": 1.63,
+  "z_new_vs_exact": 0.81,
+  "three_identical": {
+   "runs": 1500,
+   "alive": 0.18866666666666668,
+   "humans_mean": 3037380.52,
+   "humans_se": 143.607218066845
+  },
+  "z_three_vs_one": 0.0,
+  "mixed_split": {
+   "runs": 1500,
+   "alive": 0.182,
+   "humans_mean": 3038004.98,
+   "humans_se": 89.09847497077021
+  },
+  "mixed_exact": {
+   "runs": 750,
+   "alive": 0.19466666666666665,
+   "humans_mean": 3037902.2786666667,
+   "humans_se": 134.82163155821468
+  },
+  "z_mixed_split_vs_exact": 0.64,
+  "seconds": 2
+ },
+ "T2_T4_suburb_20x20_48h": {
+  "cells": 400,
+  "people": 952168,
+  "new_split": {
+   "runs": 1500,
+   "alive": 0.19666666666666666,
+   "humans_mean": 824434.494,
+   "humans_se": 6702.063383212926
+  },
+  "new_exact": {
+   "runs": 750,
+   "alive": 0.18533333333333332,
+   "humans_mean": 829657.3746666666,
+   "humans_se": 9433.797739129413
+  },
+  "old_split": {
+   "runs": 1500,
+   "alive": 0.20266666666666666,
+   "humans_mean": 820611.1353333333,
+   "humans_se": 6771.515013448601
+  },
+  "z_new_vs_old": 0.4,
+  "z_new_vs_exact": -0.45,
+  "three_identical": {
+   "runs": 1500,
+   "alive": 0.19666666666666666,
+   "humans_mean": 824487.1693333334,
+   "humans_se": 6698.327116922949
+  },
+  "z_three_vs_one": 0.01,
+  "mixed_split": {
+   "runs": 1500,
+   "alive": 0.17933333333333334,
+   "humans_mean": 910573.35,
+   "humans_se": 2332.108493399122
+  },
+  "mixed_exact": {
+   "runs": 750,
+   "alive": 0.18133333333333335,
+   "humans_mean": 909585.2173333333,
+   "humans_se": 3350.9117834590015
+  },
+  "z_mixed_split_vs_exact": 0.24,
+  "seconds": 101
+ },
+ "T2_T4_rural_20x20_120h": {
+  "cells": 400,
+  "people": 161625,
+  "new_split": {
+   "runs": 2000,
+   "alive": 0.2035,
+   "humans_mean": 128788.302,
+   "humans_se": 1452.7859725432397
+  },
+  "new_exact": {
+   "runs": 1000,
+   "alive": 0.186,
+   "humans_mean": 131602.631,
+   "humans_se": 1986.7851818809654
+  },
+  "old_split": {
+   "runs": 2000,
+   "alive": 0.1975,
+   "humans_mean": 129756.77,
+   "humans_se": 1436.5816340626845
+  },
+  "z_new_vs_old": -0.47,
+  "z_new_vs_exact": -1.14,
+  "three_identical": {
+   "runs": 2000,
+   "alive": 0.2035,
+   "humans_mean": 128788.2835,
+   "humans_se": 1452.7867976674356
+  },
+  "z_three_vs_one": -0.0,
+  "mixed_split": {
+   "runs": 2000,
+   "alive": 0.186,
+   "humans_mean": 141872.305,
+   "humans_se": 924.1496826861934
+  },
+  "mixed_exact": {
+   "runs": 1000,
+   "alive": 0.184,
+   "humans_mean": 142073.394,
+   "humans_se": 1302.4873598040072
+  },
+  "z_mixed_split_vs_exact": -0.13,
+  "seconds": 82
+ },
+ "seconds": 213
+}

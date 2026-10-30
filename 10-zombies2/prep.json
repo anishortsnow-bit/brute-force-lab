@@ -1,0 +1,35 @@
+{
+ "land_cells": 873134,
+ "cells_without_etopo_sample": 0,
+ "walk_mean": 0.9869513145227566,
+ "walk_pop_weighted": 0.9979085061493392,
+ "walk_max": 1.0,
+ "walk_p01": 0.7932389520238278,
+ "walk_min": 0.4077502910997984,
+ "walk3_mean": 0.9270721114156065,
+ "walk3_p01": 0.3297235045226623,
+ "walk3_min": 0.028901516158593626,
+ "police_total": 792989,
+ "police_per_person": 0.0024072230856571133,
+ "people_per_officer": 415.4164215017173,
+ "walk_New York, NY": [
+  1.0,
+  0.998
+ ],
+ "walk_Pittsburgh, PA": [
+  0.999,
+  0.994
+ ],
+ "walk_Denver, CO": [
+  1.0,
+  0.998
+ ],
+ "walk_Salt Lake City, UT": [
+  0.995,
+  0.866
+ ],
+ "walk_Scranton, PA": [
+  0.999,
+  0.97
+ ]
+}
